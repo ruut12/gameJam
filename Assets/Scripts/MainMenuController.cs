@@ -95,8 +95,6 @@ public class MainMenuController : MonoBehaviour {
             readyPlayers++;
         }
 
-        Debug.Log(readyPlayers);
-
         if(players == readyPlayers && readyPlayers > 1) {
             gamePlay.startGame();
         }
