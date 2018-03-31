@@ -20,16 +20,10 @@ public class PlayerController : MonoBehaviour {
     // Update is called once per frame
     void FixedUpdate() {
 
-        Debug.Log(rb2d2);
-
-        float moveHorizontal1 = Input.GetAxis("xbox1hor");
-        float moveHorizontal2 = Input.GetAxis("xbox2hor");
-        float moveHorizontal3 = Input.GetAxis("xbox3hor");
-        float moveHorizontal4 = Input.GetAxis("xbox4hor");
-
         //Store the current vertical input in the float moveVertical.
 
-        if (rb2d != null){ 
+        if (rb2d != null){
+            float moveHorizontal1 = Input.GetAxis("xbox1hor");
             if (Input.GetKeyDown("joystick 1 button 0"))
             {
                 rb2d.AddForce(new Vector2(0, 5), ForceMode2D.Impulse);
@@ -39,6 +33,7 @@ public class PlayerController : MonoBehaviour {
         }
         if (rb2d2 != null)
         {
+            float moveHorizontal2 = Input.GetAxis("xbox2hor");
             if (Input.GetKeyDown("joystick 2 button 0"))
             {
                 rb2d2.AddForce(new Vector2(0, 5), ForceMode2D.Impulse);
@@ -48,6 +43,7 @@ public class PlayerController : MonoBehaviour {
         }
         if (rb2d3 != null)
         {
+            float moveHorizontal3 = Input.GetAxis("xbox3hor");
             if (Input.GetKeyDown("joystick 3 button 0"))
             {
                 rb2d3.AddForce(new Vector2(0, 5), ForceMode2D.Impulse);
@@ -57,6 +53,7 @@ public class PlayerController : MonoBehaviour {
         }
         if (rb2d4 != null)
         {
+            float moveHorizontal4 = Input.GetAxis("xbox4hor");
             if (Input.GetKeyDown("joystick 4 button 0"))
             {
                 rb2d4.AddForce(new Vector2(0, 5), ForceMode2D.Impulse);
