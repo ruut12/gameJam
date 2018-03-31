@@ -14,7 +14,7 @@ public class ForcePush : MonoBehaviour {
 
 	void FixedUpdate ()
 	{
-		if (Input.GetKeyDown("x")){
+		if (Input.GetKeyDown("x") || Input.GetKeyDown(KeyCode.Joystick1Button1)) {
 			
 
 			Vector3 explosionPos = transform.position;
