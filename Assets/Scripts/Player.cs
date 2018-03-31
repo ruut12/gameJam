@@ -151,16 +151,16 @@ public class Player : MonoBehaviour
     }
 
 	void OnCollisionEnter2D(Collision2D col){
-		//col.gameObject.tag
-		Debug.Log (col.gameObject.tag, gameObject);
 		switch (col.gameObject.tag) {
 		case "teleport":
 			transform.position = col.transform.GetChild (0).position;
 			break;
 		case "DangerCollider":
+			
 			lives -= 1;
-			Debug.Log (lives);
 			if (lives < 1) {
+				var script = Camera.main.GetComponent<CameraShake>();
+				script.shakecamera ();
 				Debug.Log ("game over");
 			}
 			break;
