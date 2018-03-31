@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class ForcePush : MonoBehaviour {
+public class ForcePush2 : MonoBehaviour {
 
 	public float radius;
 	public float power;
@@ -14,7 +14,7 @@ public class ForcePush : MonoBehaviour {
 
 	void FixedUpdate ()
 	{
-		if (Input.GetKeyDown("x") || Input.GetKeyDown(KeyCode.Joystick1Button1)) {
+		if (Input.GetButtonDown("Fire2")) {
 			
 
 			Vector3 explosionPos = transform.position;

@@ -13,7 +13,7 @@ public class PlayerTwoScore : MonoBehaviour
     {
         LivesText = GameObject.Find("PlayerTwoScore").GetComponent<Text>();
 
-        LivesText.text = "Lives left: " + lives;
+        LivesText.text = "" + lives;
     }
 
     void OnCollisionEnter2D(Collision2D collision)
@@ -32,6 +32,6 @@ public class PlayerTwoScore : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        LivesText.text = "Lives left: " + lives;
+        LivesText.text = "" + lives;
     }
 }
