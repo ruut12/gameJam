@@ -153,7 +153,7 @@ public class Player : MonoBehaviour
 	void OnCollisionEnter2D(Collision2D col){
 		switch (col.gameObject.tag) {
 		case "teleport":
-			transform.position = col.transform.GetChild (0).position;
+			//transform.position = col.transform.GetChild (0).position;
 			break;
 		case "DangerCollider":
 			
