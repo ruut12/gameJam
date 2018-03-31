@@ -19,11 +19,13 @@ public class PlayerOneScore : MonoBehaviour {
         if (collision.gameObject.tag == "DangerCollider")
         {
             Debug.Log("Collision detected");
+            FindObjectOfType<AudioManager>().Play("damage");
             lives -= 1;
         }
         if (lives < 1)
         {
             Debug.Log("game over");
+            FindObjectOfType<AudioManager>().Play("death");
         }
     }
 
