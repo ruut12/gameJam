@@ -33,7 +33,7 @@ public class MainMenuController : MonoBehaviour {
     // Update is called once per frame
     void Update() {
 
-        if (Input.GetKeyDown("joystick 1 button 0"))
+        if (Input.GetKeyDown("joystick 1 button 0") && p1ReadyPress == 0)
         {
             mainInfo.text = "Press B or X to get ready";
             playerOne.text = "Player 1";
@@ -45,7 +45,7 @@ public class MainMenuController : MonoBehaviour {
         {
             player1Ready.text = "Ready";
         }
-            if (Input.GetKeyDown("joystick 2 button 0"))
+            if (Input.GetKeyDown("joystick 2 button 0") && p2ReadyPress == 0)
         {
             mainInfo.text = "Press B or X to get ready";
             playerTwo.text = "Player 2";
@@ -57,7 +57,7 @@ public class MainMenuController : MonoBehaviour {
         {
             player2Ready.text = "Ready";
         }
-        if (Input.GetKeyDown("joystick 3 button 0"))
+        if (Input.GetKeyDown("joystick 3 button 0") && p3ReadyPress == 0)
         {
             mainInfo.text = "Press B or X to get ready";
             playerThree.text = "Player 3";
@@ -69,7 +69,7 @@ public class MainMenuController : MonoBehaviour {
         {
             player3Ready.text = "Ready";
         }
-        if (Input.GetKeyDown("joystick 4 button 0"))
+        if (Input.GetKeyDown("joystick 4 button 0") && p4ReadyPress == 0)
         {
             mainInfo.text = "Press B or X to get ready";
             playerFour.text = "Player 4";
