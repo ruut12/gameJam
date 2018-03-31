@@ -11,7 +11,7 @@ public class PlayerOneScore : MonoBehaviour {
 	void Start () {
 		LivesText = GameObject.Find("PlayerOneScore").GetComponent<Text>();
 
-        LivesText.text = ""+lives;
+        LivesText.text = "" + lives;
 	}
 
     void OnCollisionEnter2D(Collision2D collision)
@@ -19,13 +19,13 @@ public class PlayerOneScore : MonoBehaviour {
         if (collision.gameObject.tag == "DangerCollider")
         {
             Debug.Log("Collision detected");
-            FindObjectOfType<AudioManager>().Play("damage");
+            //FindObjectOfType<AudioManager>().Play("damage");
             lives -= 1;
         }
         if (lives < 1)
         {
             Debug.Log("game over");
-            FindObjectOfType<AudioManager>().Play("death");
+            //FindObjectOfType<AudioManager>().Play("death");
         }
     }
 
