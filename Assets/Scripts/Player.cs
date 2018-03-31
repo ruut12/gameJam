@@ -1,4 +1,5 @@
 ﻿using UnityEngine;
+using UnityEngine.UI;
 
 [RequireComponent(typeof(Controller2D))]
 public class Player : MonoBehaviour
@@ -33,12 +34,18 @@ public class Player : MonoBehaviour
     private bool wallSliding;
     private int wallDirX;
 
+	public int lives = 3;
+	public Text LivesText;
+
     private void Start()
     {
         controller = GetComponent<Controller2D>();
         gravity = -(2 * maxJumpHeight) / Mathf.Pow(timeToJumpApex, 2);
         maxJumpVelocity = Mathf.Abs(gravity) * timeToJumpApex;
         minJumpVelocity = Mathf.Sqrt(2 * Mathf.Abs(gravity) * minJumpHeight);
+
+		//LivesText = GetComponent<Text>();
+		//LivesText.text = "Lives left: " + lives;
     }
 
     private void Update()
@@ -52,6 +59,9 @@ public class Player : MonoBehaviour
         {
             velocity.y = 0f;
         }
+
+		//update health text
+		//LivesText.text = "Lives left: " + lives;
     }
 
     public void SetDirectionalInput(Vector2 input)
@@ -139,4 +149,21 @@ public class Player : MonoBehaviour
         velocity.x = Mathf.SmoothDamp(velocity.x, targetVelocityX, ref velocityXSmoothing, (controller.collisions.below ? accelerationTimeGrounded : accelerationTimeAirborne));
         velocity.y += gravity * Time.deltaTime;
     }
+
+	void OnCollisionEnter2D(Collision2D col){
+		//col.gameObject.tag
+		Debug.Log (col.gameObject.tag, gameObject);
+		switch (col.gameObject.tag) {
+		case "teleport":
+			transform.position = col.transform.GetChild (0).position;
+			break;
+		case "DangerCollider":
+			lives -= 1;
+			Debug.Log (lives);
+			if (lives < 1) {
+				Debug.Log ("game over");
+			}
+			break;
+		}
+	}
 }
