@@ -71,6 +71,8 @@ public class Player : MonoBehaviour
 
     public void OnJumpInputDown()
     {
+        FindObjectOfType<AudioManager>().Play("jump");
+
         if (wallSliding)
         {
             if (wallDirX == directionalInput.x)
