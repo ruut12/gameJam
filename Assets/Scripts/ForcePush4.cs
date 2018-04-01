@@ -25,16 +25,16 @@ public class ForcePush4 : MonoBehaviour {
 		if ((lasActionTime + (PushCooldown * 10000000)) < (nowTicks)) {
 			canPush = true;
 			lasActionTime = nowTicks; // alusta tegemist
-            FindObjectOfType<AudioManager>().Play("push");
-            gameObject.GetComponent<Player>().pushing = true;
-            pushingAnimTimer = pushingAnimCd;
         }
 
 		if (Input.GetButtonDown("Fire4")) {
 			if (canPush) {
 				pushItems ();
 				canPush = false;
-			}
+                FindObjectOfType<AudioManager>().Play("push");
+                gameObject.GetComponent<Player>().pushing = true;
+                pushingAnimTimer = pushingAnimCd;
+            }
 		}
 	}
 
@@ -54,8 +54,6 @@ public class ForcePush4 : MonoBehaviour {
     }
 
     void pushItems(){
-		FindObjectOfType<AudioManager>().Play("push");
-
 		Vector3 explosionPos = transform.position;
 		Collider2D[] colliders = Physics2D.OverlapCircleAll(explosionPos, radius);
 
