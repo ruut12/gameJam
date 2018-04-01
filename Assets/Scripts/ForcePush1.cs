@@ -15,9 +15,10 @@ public class ForcePush1 : MonoBehaviour {
 	void FixedUpdate ()
 	{
 		if (Input.GetButtonDown("Fire1")) {
-			
 
-			Vector3 explosionPos = transform.position;
+            FindObjectOfType<AudioManager>().Play("push");
+
+            Vector3 explosionPos = transform.position;
 			Collider2D[] colliders = Physics2D.OverlapCircleAll(explosionPos, radius);
 
 			foreach (Collider2D hit in colliders) {
