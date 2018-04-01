@@ -96,7 +96,7 @@ public class MainMenuController : MonoBehaviour {
         }
 
         if(players == readyPlayers && readyPlayers > 1) {
-            gamePlay.startGame();
+            gamePlay.startGame(p1ReadyPress, p2ReadyPress, p3ReadyPress, p4ReadyPress);
         }
     }
 }

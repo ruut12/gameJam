@@ -12,19 +12,21 @@ public class GameState : MonoBehaviour {
     public int playerCount;
 	// Use this for initialization
 	void Start () {
-        game = SceneManager.GetSceneByName(gameSceneName);
         menu = SceneManager.GetSceneByName(gameMenuName);
         SceneManager.SetActiveScene(menu);
     }
 
-    public void startGame()
+    public void startGame(int p1ReadyPress, int p2ReadyPress, int p3ReadyPress, int p4ReadyPress)
     {
-        int p1ReadyPress = GameObject.Find("MainMenu").GetComponent<MainMenuController>().p1ReadyPress;
-        int p2ReadyPress = GameObject.Find("MainMenu").GetComponent<MainMenuController>().p2ReadyPress;
-        int p3ReadyPress = GameObject.Find("MainMenu").GetComponent<MainMenuController>().p3ReadyPress;
-        int p4ReadyPress = GameObject.Find("MainMenu").GetComponent<MainMenuController>().p4ReadyPress;
+        SceneManager.LoadScene(gameSceneName);
+        game = SceneManager.GetSceneByName(gameSceneName);
         SceneManager.SetActiveScene(game);
-        if(p1ReadyPress == 0)
+        Debug.Log("player1"+p1ReadyPress);
+        Debug.Log("player2"+p2ReadyPress);
+        Debug.Log("player3"+p3ReadyPress);
+        Debug.Log("player4"+p4ReadyPress);
+
+        if (p1ReadyPress == 0)
         {
             GameObject.Find("PlayerOne").SetActive(false);
             GameObject.Find("PlayerOneScore").SetActive(false);
