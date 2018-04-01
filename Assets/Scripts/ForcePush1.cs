@@ -1,6 +1,4 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
+﻿using UnityEngine;
 
 public class ForcePush1 : MonoBehaviour {
 
@@ -10,6 +8,9 @@ public class ForcePush1 : MonoBehaviour {
 
 	long lasActionTime;
 	public bool canPush = true;
+
+    float pushingAnimTimer = 0;
+    float pushingAnimCd = 0.3f;
 
 	void Start()
 	{
@@ -29,13 +30,30 @@ public class ForcePush1 : MonoBehaviour {
 			if (canPush) {
 				pushItems ();
 				canPush = false;
-			}
-		}
+                FindObjectOfType<AudioManager>().Play("push");
+                gameObject.GetComponent<Player>().pushing = true;
+                // set false in update
+            }
+        }
 	}
-	void pushItems(){
-		FindObjectOfType<AudioManager>().Play("push");
 
-		Vector3 explosionPos = transform.position;
+    private void Update()
+    {
+        if (gameObject.GetComponent<Player>().pushing)
+        {
+            if (pushingAnimTimer > 0)
+            {
+                pushingAnimTimer -= Time.deltaTime;
+            }
+            else
+            {
+                gameObject.GetComponent<Player>().pushing = false;
+            }
+        }
+    }
+
+    void pushItems(){
+        Vector3 explosionPos = transform.position;
 		Collider2D[] colliders = Physics2D.OverlapCircleAll(explosionPos, radius);
 
 		foreach (Collider2D hit in colliders) {
