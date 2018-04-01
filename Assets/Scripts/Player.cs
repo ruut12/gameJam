@@ -37,12 +37,18 @@ public class Player : MonoBehaviour
 	public int lives = 3;
 	public Text LivesText;
 
+    Animator animator;
+    public bool pushing;
+    public bool damaged;
+
     private void Start()
     {
         controller = GetComponent<Controller2D>();
         gravity = -(2 * maxJumpHeight) / Mathf.Pow(timeToJumpApex, 2);
         maxJumpVelocity = Mathf.Abs(gravity) * timeToJumpApex;
         minJumpVelocity = Mathf.Sqrt(2 * Mathf.Abs(gravity) * minJumpHeight);
+
+        animator = gameObject.GetComponent<Animator>();
 
 		//LivesText = GetComponent<Text>();
 		//LivesText.text = "Lives left: " + lives;
@@ -60,8 +66,14 @@ public class Player : MonoBehaviour
             velocity.y = 0f;
         }
 
-		//update health text
-		//LivesText.text = "Lives left: " + lives;
+        //update health text
+        //LivesText.text = "Lives left: " + lives;
+
+        animator.SetBool("grounded", controller.collisions.below);
+        animator.SetBool("dead", lives < 1);
+        animator.SetBool("damaged", damaged);
+        animator.SetBool("pushing", pushing);
+        animator.SetFloat("speed", Mathf.Abs(Input.GetAxis("Horizontal")));
     }
 
     public void SetDirectionalInput(Vector2 input)
@@ -71,7 +83,6 @@ public class Player : MonoBehaviour
 
     public void OnJumpInputDown()
     {
-        FindObjectOfType<AudioManager>().Play("jump");
 
         if (wallSliding)
         {
@@ -94,11 +105,15 @@ public class Player : MonoBehaviour
         }
         if (controller.collisions.below)
         {
+            FindObjectOfType<AudioManager>().Play("jump");
+
             velocity.y = maxJumpVelocity;
             isDoubleJumping = false;
         }
         if (canDoubleJump && !controller.collisions.below && !isDoubleJumping && !wallSliding)
         {
+            FindObjectOfType<AudioManager>().Play("jump");
+
             velocity.y = maxJumpVelocity;
             isDoubleJumping = true;
         }
