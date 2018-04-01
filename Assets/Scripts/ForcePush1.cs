@@ -5,6 +5,7 @@ public class ForcePush1 : MonoBehaviour {
 	public float radius;
 	public float power;
 	public float PushCooldown = 3.0f;
+	public float UpliftMultiplier = 3.0F;
 
 	long lasActionTime;
 	public bool canPush = true;
@@ -58,7 +59,7 @@ public class ForcePush1 : MonoBehaviour {
 
 		foreach (Collider2D hit in colliders) {
 			if (hit && hit.GetComponent<Rigidbody2D>())
-				hit.GetComponent<Rigidbody2D>().AddExplosionForce(power, explosionPos, radius, 3.0F);
+				hit.GetComponent<Rigidbody2D>().AddExplosionForce(power, explosionPos, radius, UpliftMultiplier);
 
 		}	
 	}
