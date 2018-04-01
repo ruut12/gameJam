@@ -8,48 +8,55 @@ public class GameState : MonoBehaviour {
     public Scene game, menu;
     public string gameSceneName = "4 players";
     public string gameMenuName = "LarsScene";
-    public GameObject levelOne, mainMenu;
     public int playerCount;
-	// Use this for initialization
-	void Start () {
+    public static bool gameSceneLoaded;
+
+    public static int p1ReadyPress;
+    public static int p2ReadyPress;
+    public static int p3ReadyPress;
+    public static int p4ReadyPress;
+
+
+    // Use this for initialization
+    void Start () {
         menu = SceneManager.GetSceneByName(gameMenuName);
         SceneManager.SetActiveScene(menu);
     }
 
-    public void startGame(int p1ReadyPress, int p2ReadyPress, int p3ReadyPress, int p4ReadyPress)
+    public void startGame(int ap1ReadyPress, int ap2ReadyPress, int ap3ReadyPress, int ap4ReadyPress)
     {
-        SceneManager.LoadScene(gameSceneName);
-        game = SceneManager.GetSceneByName(gameSceneName);
-        SceneManager.SetActiveScene(game);
-        Debug.Log("player1"+p1ReadyPress);
-        Debug.Log("player2"+p2ReadyPress);
-        Debug.Log("player3"+p3ReadyPress);
-        Debug.Log("player4"+p4ReadyPress);
+        p1ReadyPress = ap1ReadyPress;
+        p2ReadyPress = ap2ReadyPress;
+        p3ReadyPress = ap3ReadyPress;
+        p4ReadyPress = ap4ReadyPress;
 
-        if (p1ReadyPress == 0)
-        {
-            GameObject.Find("PlayerOne").SetActive(false);
-            GameObject.Find("PlayerOneScore").SetActive(false);
-        }
-        if (p2ReadyPress == 0)
-        {
-            GameObject.Find("PlayerTwo").SetActive(false);
-            GameObject.Find("PlayerTwoScore").SetActive(false);
-        }
-        if (p3ReadyPress == 0)
-        {
-            GameObject.Find("PlayerThree").SetActive(false);
-            GameObject.Find("PlayerThreeScore").SetActive(false);
-        }
-        if (p4ReadyPress == 0)
-        {
-            GameObject.Find("PlayerFour").SetActive(false);
-            GameObject.Find("PlayerFourScore").SetActive(false);
-        }
+        Debug.Log("startGame");
+        SceneManager.LoadScene (gameSceneName);
+
+
     }
-	
-	// Update is called once per frame
-	void Update () {
-		
+
+    public void ResetGame()
+    {        
+        game = SceneManager.GetSceneByName(gameSceneName);
+        SceneManager.SetActiveScene(game);        
+     
+        Debug.Log("player1" + p1ReadyPress);
+        Debug.Log("player2" + p2ReadyPress);
+        Debug.Log("player3" + p3ReadyPress);
+        Debug.Log("player4" + p4ReadyPress);
+        Debug.Log("Active Scene : " + SceneManager.GetActiveScene().name);        
+
+        SceneManager.UnloadSceneAsync(gameMenuName);
+    }
+
+    // Update is called once per frame
+    void Update () {
+        Debug.Log ("::: loaded=" + gameSceneLoaded);
+		if (gameSceneLoaded)
+        {
+            ResetGame();
+            gameSceneLoaded = false;
+        }
 	}
 }
