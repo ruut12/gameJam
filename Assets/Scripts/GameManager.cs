@@ -63,7 +63,7 @@ public class GameManager : MonoBehaviour {
     }
 	
 	// Update is called once per frame
-	void Update () {
+	/* void Update () {
 		if(playersLeft < 2)
         {
             if(PlayerOneScore.lives > 0)
@@ -83,6 +83,6 @@ public class GameManager : MonoBehaviour {
                 winScreenName = "winner_pink";
             }
             SceneManager.LoadScene(winScreenName);
-        }
-	}
+        } 
+	}*/
 }
