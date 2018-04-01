@@ -33,7 +33,7 @@ public class ForcePush1 : MonoBehaviour {
 				canPush = false;
                 FindObjectOfType<AudioManager>().Play("push");
                 gameObject.GetComponent<Player>().pushing = true;
-                // set false in update
+                pushingAnimTimer = pushingAnimCd;
             }
         }
 	}
