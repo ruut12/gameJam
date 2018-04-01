@@ -14,6 +14,9 @@ public class PlayerFourScore : MonoBehaviour
     float damagedAnimTimer = 0;
     float damagedAnimCd = 0.3f;
 
+    bool hitCooldown;
+    float hitTimer = 0;
+
     void Start()
     {
         var score = GameObject.Find("PlayerFourScore");
@@ -37,13 +40,16 @@ public class PlayerFourScore : MonoBehaviour
 
     void OnCollisionEnter2D(Collision2D collision)
     {
-        if (collision.gameObject.tag == "DangerCollider")
+        if (!hitCooldown)
         {
-            Debug.Log("Collision detected");
-            FindObjectOfType<AudioManager>().Play("damage");
-            lives -= 1;
-            gameObject.GetComponent<Player>().damaged = true;
-            damagedAnimTimer = damagedAnimCd;
+            if (collision.gameObject.tag == "DangerCollider")
+            {
+                Debug.Log("Collision detected");
+                FindObjectOfType<AudioManager>().Play("damage");
+                lives -= 1;
+                gameObject.GetComponent<Player>().damaged = true;
+                damagedAnimTimer = damagedAnimCd;
+            }
         }
 
         if (lives < 1)
@@ -77,6 +83,18 @@ public class PlayerFourScore : MonoBehaviour
             else
             {
                 gameObject.GetComponent<Player>().damaged = false;
+            }
+        }
+
+        if (hitCooldown)
+        {
+            if (hitTimer > 0)
+            {
+                hitTimer -= Time.deltaTime;
+            }
+            else
+            {
+                hitCooldown = false;
             }
         }
     }
