@@ -7,6 +7,7 @@ public class PlayerTwoScore : MonoBehaviour
 {
 
     public int lives = 3;
+	public int destroyTime = 1;
     public Text LivesText;
     public PlayerInput2 PlayerRigid;
     // Use this for initialization
@@ -34,7 +35,7 @@ public class PlayerTwoScore : MonoBehaviour
         if (lives < 1)
         {
             Destroy(PlayerRigid);
-            Invoke("DestroyObject", 5);
+            Invoke("DestroyObject", destroyTime);
             FindObjectOfType<AudioManager>().Play("death");
         }
     }
