@@ -16,10 +16,18 @@ public class PlayerTwoScore : MonoBehaviour
 
     void Start()
     {
-        LivesText = GameObject.Find("PlayerTwoScore").GetComponent<Text>();
+        var score = GameObject.Find("PlayerTwoScore");
+        if(score != null)
+        {
+            LivesText = score.GetComponent<Text>();
+        }
+
         PlayerRigid = GameObject.Find("PlayerTwo").GetComponent<PlayerInput2>();
 
-        LivesText.text = "" + lives;
+        if (LivesText != null)
+        {
+            LivesText.text = "" + lives;
+        }
     }
 
     IEnumerator Wait()
