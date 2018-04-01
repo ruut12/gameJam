@@ -5,8 +5,8 @@ using System;
 public class AudioManager : MonoBehaviour {
 
     // call this using FindObjectOfType<AudioManager>().Play(name_of_clip);
-
     public static AudioManager instance;
+    static System.Random rnd = new System.Random();
 
     public Sound[] sounds;
 
@@ -28,6 +28,7 @@ public class AudioManager : MonoBehaviour {
             s.source.volume = s.volume;
             s.source.pitch = s.pitch;
             s.source.loop = s.loop;
+            s.source.spatialBlend = s.spacialBlend;
         }
 	}
 
@@ -36,11 +37,12 @@ public class AudioManager : MonoBehaviour {
     }
 
     public void Play (string name) {
-        Sound s = Array.Find(sounds, sound => sound.name == name);
+        Sound[] s = Array.FindAll(sounds, sound => sound.name == name);
+        int r = rnd.Next(s.Length);
 
         if (s != null)
         {
-            s.source.Play();
+            s[r].source.Play();
         } else
         {
             Debug.LogWarning("Sound " + name + " not found");

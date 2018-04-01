@@ -7,26 +7,40 @@ public class PlayerOneScore : MonoBehaviour {
 
     public int lives = 3;
     public Text LivesText;
+    public int deathTime = 3;
+    public PlayerInput1 PlayerRigid;
 	// Use this for initialization
 	void Start () {
 		LivesText = GameObject.Find("PlayerOneScore").GetComponent<Text>();
+        PlayerRigid = GameObject.Find("PlayerOne").GetComponent<PlayerInput1>();
 
         LivesText.text = "" + lives;
 	}
+
+    IEnumerator Wait()
+    {
+        yield return new WaitForSeconds(5);
+    }
 
     void OnCollisionEnter2D(Collision2D collision)
     {
         if (collision.gameObject.tag == "DangerCollider")
         {
             Debug.Log("Collision detected");
-            //FindObjectOfType<AudioManager>().Play("damage");
+            FindObjectOfType<AudioManager>().Play("damage");
             lives -= 1;
         }
         if (lives < 1)
         {
-            Debug.Log("game over");
-            //FindObjectOfType<AudioManager>().Play("death");
+            Destroy(PlayerRigid);
+            Invoke("DestroyObject", deathTime);
+            FindObjectOfType<AudioManager>().Play("death");
         }
+    }
+
+    void DestroyObject()
+    {
+        Destroy(gameObject);
     }
 
     // Update is called once per frame

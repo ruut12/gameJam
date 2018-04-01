@@ -9,7 +9,7 @@ public class Player : MonoBehaviour
     public float timeToJumpApex = .4f;
     private float accelerationTimeAirborne = .2f;
     private float accelerationTimeGrounded = .1f;
-    private float moveSpeed = 6f;
+    public float moveSpeed = 6f;
 
     public Vector2 wallJumpClimb;
     public Vector2 wallJumpOff;
@@ -71,6 +71,8 @@ public class Player : MonoBehaviour
 
     public void OnJumpInputDown()
     {
+        FindObjectOfType<AudioManager>().Play("jump");
+
         if (wallSliding)
         {
             if (wallDirX == directionalInput.x)
