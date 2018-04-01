@@ -28,14 +28,14 @@ public class PlayerFourScore : MonoBehaviour
         if (collision.gameObject.tag == "DangerCollider")
         {
             Debug.Log("Collision detected");
-            //FindObjectOfType<AudioManager>().Play("damage");
+            FindObjectOfType<AudioManager>().Play("damage");
             lives -= 1;
         }
         if (lives < 1)
         {
             Destroy(PlayerRigid);
             Invoke("DestroyObject", 5);
-            //FindObjectOfType<AudioManager>().Play("death");
+            FindObjectOfType<AudioManager>().Play("death");
         }
     }
 
