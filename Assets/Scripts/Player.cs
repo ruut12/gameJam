@@ -73,7 +73,7 @@ public class Player : MonoBehaviour
         animator.SetBool("dead", lives < 1);
         animator.SetBool("damaged", damaged);
         animator.SetBool("pushing", pushing);
-        animator.SetFloat("speed", Mathf.Abs(Input.GetAxis("Horizontal")));
+        animator.SetFloat("speed", 0); // Mathf.Abs(Input.GetAxis("Horizontal")));
     }
 
     public void SetDirectionalInput(Vector2 input)

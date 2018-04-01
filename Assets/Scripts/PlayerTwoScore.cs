@@ -54,7 +54,10 @@ public class PlayerTwoScore : MonoBehaviour
 
     void Update()
     {
-        LivesText.text = "" + lives;
+        if (LivesText != null)
+        {
+            LivesText.text = "" + lives;
+        }
 
         if (gameObject.GetComponent<Player>().damaged)
         {
