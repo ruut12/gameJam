@@ -44,6 +44,7 @@ public class PlayerFourScore : MonoBehaviour
             gameObject.GetComponent<Player>().moveSpeed = 0;
             Invoke("DestroyObject", deathTime);
             FindObjectOfType<AudioManager>().Play("death");
+            GameManager.playersLeft--;
         }
     }
 
