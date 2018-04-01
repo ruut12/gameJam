@@ -10,7 +10,10 @@ public class PlayerTwoScore : MonoBehaviour
     public int deathTime = 3;
     public Text LivesText;
     public PlayerInput2 PlayerRigid;
-    // Use this for initialization
+
+    float damagedAnimTimer = 0;
+    float damagedAnimCd = 0.3f;
+
     void Start()
     {
         LivesText = GameObject.Find("PlayerTwoScore").GetComponent<Text>();
@@ -31,7 +34,10 @@ public class PlayerTwoScore : MonoBehaviour
             Debug.Log("Collision detected");
             FindObjectOfType<AudioManager>().Play("damage");
             lives -= 1;
+            gameObject.GetComponent<Player>().damaged = true;
+            damagedAnimTimer = damagedAnimCd;
         }
+
         if (lives < 1)
         {
             Destroy(PlayerRigid);
@@ -45,9 +51,20 @@ public class PlayerTwoScore : MonoBehaviour
         Destroy(gameObject);
     }
 
-    // Update is called once per frame
     void Update()
     {
         LivesText.text = "" + lives;
+
+        if (gameObject.GetComponent<Player>().damaged)
+        {
+            if (damagedAnimTimer > 0)
+            {
+                damagedAnimTimer -= Time.deltaTime;
+            }
+            else
+            {
+                gameObject.GetComponent<Player>().damaged = false;
+            }
+        }
     }
 }
