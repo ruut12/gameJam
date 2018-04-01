@@ -14,12 +14,19 @@ public class PlayerOneScore : MonoBehaviour {
     float damagedAnimCd = 0.3f;
 
     void Start () {
-		LivesText = GameObject.Find("PlayerOneScore").GetComponent<Text>();
+        var score = GameObject.Find("PlayerOneScore");
+        if (score != null)
+        {
+            LivesText = score.GetComponent<Text>();
+        }
+
         PlayerRigid = GameObject.Find("PlayerOne").GetComponent<PlayerInput1>();
 
-
-        LivesText.text = "" + lives;
-	}
+        if (LivesText != null)
+        {
+            LivesText.text = "" + lives;
+        }
+    }
 
     IEnumerator Wait()
     {

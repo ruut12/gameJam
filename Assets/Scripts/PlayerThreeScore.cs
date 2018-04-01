@@ -16,10 +16,18 @@ public class PlayerThreeScore : MonoBehaviour
 
     void Start()
     {
-        LivesText = GameObject.Find("PlayerThreeScore").GetComponent<Text>();
+        var score = GameObject.Find("PlayerThreeScore");
+        if (score != null)
+        {
+            LivesText = score.GetComponent<Text>();
+        }
+
         PlayerRigid = GameObject.Find("PlayerThree").GetComponent<PlayerInput3>();
 
-        LivesText.text = "" + lives;
+        if (LivesText != null)
+        {
+            LivesText.text = "" + lives;
+        }
     }
 
     IEnumerator Wait()
