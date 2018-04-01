@@ -68,12 +68,14 @@ public class Player : MonoBehaviour
 
         //update health text
         //LivesText.text = "Lives left: " + lives;
-
-        animator.SetBool("grounded", controller.collisions.below);
-        animator.SetBool("dead", lives < 1);
-        animator.SetBool("damaged", damaged);
-        animator.SetBool("pushing", pushing);
-        animator.SetFloat("speed", Mathf.Abs(directionalInput.x));
+        if(animator != null)
+        {
+            animator.SetBool("grounded", controller.collisions.below);
+            animator.SetBool("dead", lives < 1);
+            animator.SetBool("damaged", damaged);
+            animator.SetBool("pushing", pushing);
+            animator.SetFloat("speed", Mathf.Abs(directionalInput.x));
+        }
 
         if (directionalInput.x < -0.1)
         {
