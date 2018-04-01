@@ -1,11 +1,14 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class GameManager : MonoBehaviour {
 
     public int players = 0;
     public static int playersLeft = 0;
+    public int gameOver = 0;
+    public string winScreenName = "WinScene";
 	// Use this for initialization
 	void Start () {
         GameState.gameSceneLoaded = true;
@@ -46,7 +49,7 @@ public class GameManager : MonoBehaviour {
 	void Update () {
 		if(playersLeft < 2)
         {
-            Debug.Log("jou");
+            SceneManager.LoadScene(winScreenName);
         }
 	}
 }
