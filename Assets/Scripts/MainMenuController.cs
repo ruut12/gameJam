@@ -23,7 +23,6 @@ public class MainMenuController : MonoBehaviour {
         p2Img.SetActive(false);
         p3Img.SetActive(false);
         p4Img.SetActive(false);
-        mainInfo = GameObject.Find("PressAorX").GetComponent<Text>();
         player1Ready = GameObject.Find("Player1Ready").GetComponent<Text>();
         player2Ready = GameObject.Find("Player2Ready").GetComponent<Text>();
         player3Ready = GameObject.Find("Player3Ready").GetComponent<Text>();
@@ -35,7 +34,6 @@ public class MainMenuController : MonoBehaviour {
 
         if (Input.GetKeyDown("joystick 1 button 0") && p1ReadyPress == 0)
         {
-            mainInfo.text = "Press B or X to get ready";
             p1Img.SetActive(true);
             player1Ready.text = "Not ready";
             p1ReadyPress = 1;
@@ -49,7 +47,6 @@ public class MainMenuController : MonoBehaviour {
         }
             if (Input.GetKeyDown("joystick 2 button 0") && p2ReadyPress == 0)
         {
-            mainInfo.text = "Press B or X to get ready";
             p2Img.SetActive(true);
             player2Ready.text = "Not ready";
             p2ReadyPress = 1;
@@ -63,7 +60,6 @@ public class MainMenuController : MonoBehaviour {
         }
         if (Input.GetKeyDown("joystick 3 button 0") && p3ReadyPress == 0)
         {
-            mainInfo.text = "Press B or X to get ready";
             p3Img.SetActive(true);
             player3Ready.text = "Not ready";
             p3ReadyPress = 1;
@@ -77,7 +73,6 @@ public class MainMenuController : MonoBehaviour {
         }
         if (Input.GetKeyDown("joystick 4 button 0") && p4ReadyPress == 0)
         {
-            mainInfo.text = "Press B or X to get ready";
             p4Img.SetActive(true);
             player4Ready.text = "Not ready";
             p4ReadyPress = 1;
