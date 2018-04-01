@@ -30,7 +30,7 @@ public class ForcePush2 : MonoBehaviour {
             pushingAnimTimer = pushingAnimCd;
         }
 
-        if (Input.GetButtonDown("Fire1")) {
+        if (Input.GetButtonDown("Fire2")) {
 			if (canPush) {
 				pushItems ();
 				canPush = false;
