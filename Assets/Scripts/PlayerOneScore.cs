@@ -17,6 +17,7 @@ public class PlayerOneScore : MonoBehaviour {
 		LivesText = GameObject.Find("PlayerOneScore").GetComponent<Text>();
         PlayerRigid = GameObject.Find("PlayerOne").GetComponent<PlayerInput1>();
 
+
         LivesText.text = "" + lives;
 	}
 
@@ -39,6 +40,7 @@ public class PlayerOneScore : MonoBehaviour {
         if (lives < 1)
         {
             Destroy(PlayerRigid);
+            gameObject.GetComponent<Player>().moveSpeed = 0;
             Invoke("DestroyObject", deathTime);
             FindObjectOfType<AudioManager>().Play("death");
         }

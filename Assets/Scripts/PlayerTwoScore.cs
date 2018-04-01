@@ -41,6 +41,7 @@ public class PlayerTwoScore : MonoBehaviour
         if (lives < 1)
         {
             Destroy(PlayerRigid);
+            gameObject.GetComponent<Player>().moveSpeed = 0;
             Invoke("DestroyObject", deathTime);
             FindObjectOfType<AudioManager>().Play("death");
         }
