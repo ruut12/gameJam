@@ -10,7 +10,10 @@ public class PlayerThreeScore : MonoBehaviour
     public Text LivesText;
     public int deathTime = 3;
     public PlayerInput3 PlayerRigid;
-    // Use this for initialization
+
+    float damagedAnimTimer = 0;
+    float damagedAnimCd = 0.3f;
+
     void Start()
     {
         LivesText = GameObject.Find("PlayerThreeScore").GetComponent<Text>();
@@ -31,7 +34,10 @@ public class PlayerThreeScore : MonoBehaviour
             Debug.Log("Collision detected");
             FindObjectOfType<AudioManager>().Play("damage");
             lives -= 1;
+            gameObject.GetComponent<Player>().damaged = true;
+            damagedAnimTimer = damagedAnimCd;
         }
+
         if (lives < 1)
         {
             Destroy(PlayerRigid);
@@ -45,9 +51,20 @@ public class PlayerThreeScore : MonoBehaviour
         Destroy(gameObject);
     }
 
-    // Update is called once per frame
     void Update()
     {
         LivesText.text = "" + lives;
+
+        if (gameObject.GetComponent<Player>().damaged)
+        {
+            if (damagedAnimTimer > 0)
+            {
+                damagedAnimTimer -= Time.deltaTime;
+            }
+            else
+            {
+                gameObject.GetComponent<Player>().damaged = false;
+            }
+        }
     }
 }
