@@ -6,7 +6,7 @@ using UnityEngine.UI;
 public class PlayerThreeScore : MonoBehaviour
 {
 
-    public int lives = 3;
+    public static int lives = 3;
     public Text LivesText;
     public int deathTime = 3;
     public PlayerInput3 PlayerRigid;

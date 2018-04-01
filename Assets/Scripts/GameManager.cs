@@ -9,6 +9,7 @@ public class GameManager : MonoBehaviour {
     public static int playersLeft = 0;
     public int gameOver = 0;
     public string winScreenName = "WinScene";
+    public static int winner = 0;
 	// Use this for initialization
 	void Start () {
         GameState.gameSceneLoaded = true;
@@ -17,17 +18,33 @@ public class GameManager : MonoBehaviour {
         {
             players++;
         }
+        else
+        {
+            PlayerOneScore.lives = 0;
+        }
         if (GameState.p2ReadyPress == 2)
         {
             players++;
+        }
+        else
+        {
+            PlayerTwoScore.lives = 0;
         }
         if (GameState.p3ReadyPress == 2)
         {
             players++;
         }
+        else
+        {
+            PlayerThreeScore.lives = 0;
+        }
         if (GameState.p4ReadyPress == 2)
         {
             players++;
+        }
+        else
+        {
+            PlayerFourScore.lives = 0;
         }
 
         GameObject.Find("PlayerOne").SetActive(GameState.p1ReadyPress == 2);
@@ -49,6 +66,22 @@ public class GameManager : MonoBehaviour {
 	void Update () {
 		if(playersLeft < 2)
         {
+            if(PlayerOneScore.lives > 0)
+            {
+                winner = 1;
+            }
+            if (PlayerTwoScore.lives > 0)
+            {
+                winner = 2;
+            }
+            if (PlayerThreeScore.lives > 0)
+            {
+                winner = 3;
+            }
+            if (PlayerFourScore.lives > 0)
+            {
+                winner = 4;
+            }
             SceneManager.LoadScene(winScreenName);
         }
 	}
