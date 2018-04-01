@@ -8,6 +8,7 @@ public class PlayerThreeScore : MonoBehaviour
 
     public int lives = 3;
     public Text LivesText;
+    public int deathTime = 3;
     public PlayerInput3 PlayerRigid;
     // Use this for initialization
     void Start()
@@ -34,7 +35,7 @@ public class PlayerThreeScore : MonoBehaviour
         if (lives < 1)
         {
             Destroy(PlayerRigid);
-            Invoke("DestroyObject", 5);
+            Invoke("DestroyObject", deathTime);
             FindObjectOfType<AudioManager>().Play("death");
         }
     }
