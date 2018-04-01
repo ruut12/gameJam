@@ -6,10 +6,10 @@ public class ForcePush1 : MonoBehaviour {
 
 	public float radius;
 	public float power;
-	public float PushCooldown = 1.0f;
+	public float PushCooldown = 3.0f;
 
 	long lasActionTime;
-	public bool isAction = false;
+	public bool canPush = true;
 
 	void Start()
 	{
@@ -19,24 +19,17 @@ public class ForcePush1 : MonoBehaviour {
 	void FixedUpdate ()
 	{
 		var nowTicks = System.DateTime.Now.Ticks;
+		
+		if ((lasActionTime + (PushCooldown * 10000000)) < (nowTicks)) {
+			canPush = true;
+			lasActionTime = nowTicks; // alusta tegemist
+		}
+
 		if (Input.GetButtonDown("Fire1")) {
-			//			var player = gameObject.GetComponent<Player>();
-
-			if ((lasActionTime + (PushCooldown * 10000000)) < (nowTicks)){
-				isAction = true;
-				lasActionTime = nowTicks; // alusta tegemist
-			}
-			Debug.Log (nowTicks - lasActionTime);
-			if (isAction && (lasActionTime + (PushCooldown * 10000000)) < (nowTicks)){
-				isAction = false; // tee actionit mingi 1 sekund
-			}
-
-			if (isAction) {
+			if (canPush) {
 				pushItems ();
+				canPush = false;
 			}
-
-			isAction = false;
-
 		}
 	}
 	void pushItems(){
