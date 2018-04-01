@@ -68,19 +68,19 @@ public class GameManager : MonoBehaviour {
         {
             if(PlayerOneScore.lives > 0)
             {
-                winner = 1;
+                winScreenName = "winner_blue";
             }
             if (PlayerTwoScore.lives > 0)
             {
-                winner = 2;
+                winScreenName = "winner_green";
             }
             if (PlayerThreeScore.lives > 0)
             {
-                winner = 3;
+                winScreenName = "winner_red";
             }
             if (PlayerFourScore.lives > 0)
             {
-                winner = 4;
+                winScreenName = "winner_pink";
             }
             SceneManager.LoadScene(winScreenName);
         }
