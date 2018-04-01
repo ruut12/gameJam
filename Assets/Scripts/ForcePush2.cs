@@ -1,6 +1,4 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
+﻿using UnityEngine;
 
 public class ForcePush2 : MonoBehaviour {
 
@@ -12,7 +10,10 @@ public class ForcePush2 : MonoBehaviour {
 	long lasActionTime;
 	public bool canPush = true;
 
-	void Start()
+    float pushingAnimTimer = 0;
+    float pushingAnimCd = 0.3f;
+
+    void Start()
 	{
 
 	}
@@ -24,16 +25,35 @@ public class ForcePush2 : MonoBehaviour {
 		if ((lasActionTime + (PushCooldown * 10000000)) < (nowTicks)) {
 			canPush = true;
 			lasActionTime = nowTicks; // alusta tegemist
-		}
+            FindObjectOfType<AudioManager>().Play("push");
+            gameObject.GetComponent<Player>().pushing = true;
+            pushingAnimTimer = pushingAnimCd;
+        }
 
-		if (Input.GetButtonDown("Fire1")) {
+        if (Input.GetButtonDown("Fire1")) {
 			if (canPush) {
 				pushItems ();
 				canPush = false;
 			}
 		}
 	}
-	void pushItems(){
+
+    private void Update()
+    {
+        if (gameObject.GetComponent<Player>().pushing)
+        {
+            if (pushingAnimTimer > 0)
+            {
+                pushingAnimTimer -= Time.deltaTime;
+            }
+            else
+            {
+                gameObject.GetComponent<Player>().pushing = false;
+            }
+        }
+    }
+
+    void pushItems(){
 		FindObjectOfType<AudioManager>().Play("push");
 
 		Vector3 explosionPos = transform.position;
