@@ -74,6 +74,15 @@ public class Player : MonoBehaviour
         animator.SetBool("damaged", damaged);
         animator.SetBool("pushing", pushing);
         animator.SetFloat("speed", Mathf.Abs(directionalInput.x));
+
+        if (directionalInput.x < -0.1)
+        {
+            transform.localScale = new Vector3(1, 1, 1);
+        } else if (directionalInput.x > 0.1)
+        {
+            transform.localScale = new Vector3(-1, 1, 1);
+
+        }
     }
 
     public void SetDirectionalInput(Vector2 input)
