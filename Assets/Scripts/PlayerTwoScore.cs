@@ -49,6 +49,7 @@ public class PlayerTwoScore : MonoBehaviour
                 lives -= 1;
                 gameObject.GetComponent<Player>().damaged = true;
                 damagedAnimTimer = damagedAnimCd;
+                hitCooldown = true;
             }
         }
 

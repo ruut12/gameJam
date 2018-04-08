@@ -49,6 +49,7 @@ public class PlayerThreeScore : MonoBehaviour
                 lives -= 1;
                 gameObject.GetComponent<Player>().damaged = true;
                 damagedAnimTimer = damagedAnimCd;
+                hitCooldown = true;
             }
         }
 
