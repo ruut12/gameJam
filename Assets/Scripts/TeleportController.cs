@@ -15,7 +15,7 @@ public class TeleportController : MonoBehaviour {
 	}
 
 	void OnCollisionEnter2D(Collision2D col){
-		Debug.Log (col.gameObject.tag);
+		//Debug.Log (col.gameObject.tag);
 		col.transform.position = gameObject.transform.GetChild (0).position;
 	}
 }

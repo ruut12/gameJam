@@ -10,6 +10,7 @@ public class PlayerTwoScore : MonoBehaviour
     public int deathTime = 3;
     public Text LivesText;
     public PlayerInput2 PlayerRigid;
+	public GameObject blood;
 
     float damagedAnimTimer = 0;
     float damagedAnimCd = 0.3f;
@@ -50,12 +51,14 @@ public class PlayerTwoScore : MonoBehaviour
                 gameObject.GetComponent<Player>().damaged = true;
                 damagedAnimTimer = damagedAnimCd;
                 hitCooldown = true;
+				Instantiate (blood, transform.position, Quaternion.identity);
             }
         }
 
         if (lives < 1)
         {
-            Destroy(PlayerRigid);
+			//Instantiate (blood, transform.position, Quaternion.identity);
+			Destroy(PlayerRigid);
             gameObject.GetComponent<Player>().moveSpeed = 0;
             Invoke("DestroyObject", deathTime);
             FindObjectOfType<AudioManager>().Play("death");

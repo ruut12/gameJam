@@ -30,7 +30,7 @@ public class GameState : MonoBehaviour {
         p3ReadyPress = ap3ReadyPress;
         p4ReadyPress = ap4ReadyPress;
 
-        Debug.Log("startGame");
+        //Debug.Log("startGame");
         SceneManager.LoadScene (gameSceneName);
 
 
