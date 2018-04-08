@@ -7,6 +7,8 @@ public class ForcePush2 : MonoBehaviour {
 	public float PushCooldown = 3.0f;
 	public float UpliftMultiplier = 3.0F;
 
+	public GameObject pushAnimation;
+
 	long lasActionTime;
 	public bool canPush = true;
 
@@ -34,6 +36,8 @@ public class ForcePush2 : MonoBehaviour {
                 FindObjectOfType<AudioManager>().Play("push");
                 gameObject.GetComponent<Player>().pushing = true;
                 pushingAnimTimer = pushingAnimCd;
+				Instantiate (pushAnimation, transform.position, Quaternion.identity);
+
             }
 		}
 	}
