@@ -58,13 +58,13 @@ public class PlayerTwoScore : MonoBehaviour
             gameObject.GetComponent<Player>().moveSpeed = 0;
             Invoke("DestroyObject", deathTime);
             FindObjectOfType<AudioManager>().Play("death");
-            GameManager.playersLeft--;
         }
     }
 
     void DestroyObject()
     {
         Destroy(gameObject);
+        GameManager.playersLeft--;
     }
 
     void Update()

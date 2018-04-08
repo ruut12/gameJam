@@ -65,6 +65,7 @@ public class PlayerFourScore : MonoBehaviour
     void DestroyObject()
     {
         Destroy(gameObject);
+        GameManager.playersLeft--;
     }
 
     void Update()

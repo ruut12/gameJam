@@ -57,7 +57,6 @@ public class PlayerOneScore : MonoBehaviour {
             gameObject.GetComponent<Player>().moveSpeed = 0;
             Invoke("DestroyObject", deathTime);
             FindObjectOfType<AudioManager>().Play("death");
-            GameManager.playersLeft--;
 
         }
     }
@@ -65,6 +64,7 @@ public class PlayerOneScore : MonoBehaviour {
     void DestroyObject()
     {
         Destroy(gameObject);
+        GameManager.playersLeft--;
     }
 
     void Update() {
