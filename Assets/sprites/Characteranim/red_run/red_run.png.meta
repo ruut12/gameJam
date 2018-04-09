@@ -96,10 +96,10 @@ TextureImporter:
       name: red_run_0
       rect:
         serializedVersion: 2
-        x: 17
-        y: 7
-        width: 17
-        height: 22
+        x: 0
+        y: 200
+        width: 50
+        height: 50
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -110,10 +110,10 @@ TextureImporter:
       name: red_run_1
       rect:
         serializedVersion: 2
-        x: 67
-        y: 7
-        width: 17
-        height: 22
+        x: 50
+        y: 200
+        width: 50
+        height: 50
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -124,10 +124,10 @@ TextureImporter:
       name: red_run_2
       rect:
         serializedVersion: 2
-        x: 117
-        y: 7
-        width: 17
-        height: 23
+        x: 100
+        y: 200
+        width: 50
+        height: 50
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -138,10 +138,10 @@ TextureImporter:
       name: red_run_3
       rect:
         serializedVersion: 2
-        x: 167
-        y: 7
-        width: 17
-        height: 23
+        x: 0
+        y: 150
+        width: 50
+        height: 50
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -152,10 +152,10 @@ TextureImporter:
       name: red_run_4
       rect:
         serializedVersion: 2
-        x: 217
-        y: 7
-        width: 17
-        height: 24
+        x: 50
+        y: 150
+        width: 50
+        height: 50
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -166,10 +166,10 @@ TextureImporter:
       name: red_run_5
       rect:
         serializedVersion: 2
-        x: 267
-        y: 7
-        width: 17
-        height: 24
+        x: 100
+        y: 150
+        width: 50
+        height: 50
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -180,10 +180,10 @@ TextureImporter:
       name: red_run_6
       rect:
         serializedVersion: 2
-        x: 317
-        y: 7
-        width: 17
-        height: 22
+        x: 0
+        y: 100
+        width: 50
+        height: 50
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -194,10 +194,10 @@ TextureImporter:
       name: red_run_7
       rect:
         serializedVersion: 2
-        x: 367
-        y: 7
-        width: 17
-        height: 22
+        x: 50
+        y: 100
+        width: 50
+        height: 50
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -208,10 +208,10 @@ TextureImporter:
       name: red_run_8
       rect:
         serializedVersion: 2
-        x: 417
-        y: 7
-        width: 17
-        height: 23
+        x: 0
+        y: 50
+        width: 50
+        height: 50
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -222,10 +222,10 @@ TextureImporter:
       name: red_run_9
       rect:
         serializedVersion: 2
-        x: 467
-        y: 7
-        width: 17
-        height: 23
+        x: 50
+        y: 50
+        width: 50
+        height: 50
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -236,10 +236,10 @@ TextureImporter:
       name: red_run_10
       rect:
         serializedVersion: 2
-        x: 517
-        y: 7
-        width: 17
-        height: 24
+        x: 0
+        y: 0
+        width: 50
+        height: 50
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -250,10 +250,10 @@ TextureImporter:
       name: red_run_11
       rect:
         serializedVersion: 2
-        x: 567
-        y: 7
-        width: 17
-        height: 24
+        x: 50
+        y: 0
+        width: 50
+        height: 50
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}

@@ -120,10 +120,10 @@ TextureImporter:
       name: red_jump_0
       rect:
         serializedVersion: 2
-        x: 17
-        y: 7
-        width: 17
-        height: 24
+        x: 0
+        y: 200
+        width: 50
+        height: 50
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -134,10 +134,10 @@ TextureImporter:
       name: red_jump_1
       rect:
         serializedVersion: 2
-        x: 67
-        y: 7
-        width: 17
-        height: 24
+        x: 50
+        y: 200
+        width: 50
+        height: 50
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -148,10 +148,10 @@ TextureImporter:
       name: red_jump_2
       rect:
         serializedVersion: 2
-        x: 117
-        y: 7
-        width: 17
-        height: 23
+        x: 100
+        y: 200
+        width: 50
+        height: 50
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -162,10 +162,10 @@ TextureImporter:
       name: red_jump_3
       rect:
         serializedVersion: 2
-        x: 167
-        y: 7
-        width: 17
-        height: 23
+        x: 150
+        y: 200
+        width: 50
+        height: 50
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -176,10 +176,10 @@ TextureImporter:
       name: red_jump_4
       rect:
         serializedVersion: 2
-        x: 217
-        y: 7
-        width: 16
-        height: 23
+        x: 0
+        y: 150
+        width: 50
+        height: 50
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -190,10 +190,10 @@ TextureImporter:
       name: red_jump_5
       rect:
         serializedVersion: 2
-        x: 267
-        y: 8
-        width: 16
-        height: 20
+        x: 50
+        y: 150
+        width: 50
+        height: 50
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -204,10 +204,10 @@ TextureImporter:
       name: red_jump_6
       rect:
         serializedVersion: 2
-        x: 316
-        y: 8
-        width: 17
-        height: 20
+        x: 100
+        y: 150
+        width: 50
+        height: 50
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -218,10 +218,10 @@ TextureImporter:
       name: red_jump_7
       rect:
         serializedVersion: 2
-        x: 366
-        y: 8
-        width: 17
-        height: 20
+        x: 150
+        y: 150
+        width: 50
+        height: 50
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -232,10 +232,10 @@ TextureImporter:
       name: red_jump_8
       rect:
         serializedVersion: 2
-        x: 416
-        y: 8
-        width: 17
-        height: 20
+        x: 0
+        y: 100
+        width: 50
+        height: 50
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -246,10 +246,10 @@ TextureImporter:
       name: red_jump_9
       rect:
         serializedVersion: 2
-        x: 466
-        y: 8
-        width: 17
-        height: 20
+        x: 50
+        y: 100
+        width: 50
+        height: 50
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -260,10 +260,10 @@ TextureImporter:
       name: red_jump_10
       rect:
         serializedVersion: 2
-        x: 516
-        y: 8
-        width: 17
-        height: 20
+        x: 100
+        y: 100
+        width: 50
+        height: 50
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -274,10 +274,10 @@ TextureImporter:
       name: red_jump_11
       rect:
         serializedVersion: 2
-        x: 566
-        y: 8
-        width: 17
-        height: 20
+        x: 150
+        y: 100
+        width: 50
+        height: 50
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -288,10 +288,10 @@ TextureImporter:
       name: red_jump_12
       rect:
         serializedVersion: 2
-        x: 616
-        y: 8
-        width: 17
-        height: 20
+        x: 0
+        y: 50
+        width: 50
+        height: 50
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -302,10 +302,10 @@ TextureImporter:
       name: red_jump_13
       rect:
         serializedVersion: 2
-        x: 666
-        y: 8
-        width: 17
-        height: 20
+        x: 50
+        y: 50
+        width: 50
+        height: 50
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -316,10 +316,10 @@ TextureImporter:
       name: red_jump_14
       rect:
         serializedVersion: 2
-        x: 716
-        y: 8
-        width: 17
-        height: 20
+        x: 100
+        y: 50
+        width: 50
+        height: 50
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -330,10 +330,10 @@ TextureImporter:
       name: red_jump_15
       rect:
         serializedVersion: 2
-        x: 766
-        y: 8
-        width: 17
-        height: 20
+        x: 150
+        y: 50
+        width: 50
+        height: 50
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -344,10 +344,10 @@ TextureImporter:
       name: red_jump_16
       rect:
         serializedVersion: 2
-        x: 816
-        y: 8
-        width: 17
-        height: 20
+        x: 0
+        y: 0
+        width: 50
+        height: 50
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -358,10 +358,10 @@ TextureImporter:
       name: red_jump_17
       rect:
         serializedVersion: 2
-        x: 866
-        y: 8
-        width: 17
-        height: 20
+        x: 50
+        y: 0
+        width: 50
+        height: 50
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -372,10 +372,10 @@ TextureImporter:
       name: red_jump_18
       rect:
         serializedVersion: 2
-        x: 916
-        y: 8
-        width: 17
-        height: 20
+        x: 100
+        y: 0
+        width: 50
+        height: 50
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -386,234 +386,10 @@ TextureImporter:
       name: red_jump_19
       rect:
         serializedVersion: 2
-        x: 966
-        y: 8
-        width: 17
-        height: 20
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: red_jump_20
-      rect:
-        serializedVersion: 2
-        x: 1016
-        y: 8
-        width: 17
-        height: 20
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: red_jump_21
-      rect:
-        serializedVersion: 2
-        x: 1066
-        y: 8
-        width: 17
-        height: 20
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: red_jump_22
-      rect:
-        serializedVersion: 2
-        x: 1116
-        y: 8
-        width: 17
-        height: 20
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: red_jump_23
-      rect:
-        serializedVersion: 2
-        x: 1166
-        y: 8
-        width: 17
-        height: 20
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: red_jump_24
-      rect:
-        serializedVersion: 2
-        x: 1216
-        y: 8
-        width: 17
-        height: 20
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: red_jump_25
-      rect:
-        serializedVersion: 2
-        x: 1266
-        y: 8
-        width: 17
-        height: 20
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: red_jump_26
-      rect:
-        serializedVersion: 2
-        x: 1316
-        y: 8
-        width: 17
-        height: 20
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: red_jump_27
-      rect:
-        serializedVersion: 2
-        x: 1366
-        y: 8
-        width: 17
-        height: 20
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: red_jump_28
-      rect:
-        serializedVersion: 2
-        x: 1416
-        y: 8
-        width: 17
-        height: 20
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: red_jump_29
-      rect:
-        serializedVersion: 2
-        x: 1466
-        y: 8
-        width: 17
-        height: 20
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: red_jump_30
-      rect:
-        serializedVersion: 2
-        x: 1516
-        y: 8
-        width: 17
-        height: 20
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: red_jump_31
-      rect:
-        serializedVersion: 2
-        x: 1566
-        y: 8
-        width: 17
-        height: 20
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: red_jump_32
-      rect:
-        serializedVersion: 2
-        x: 1616
-        y: 8
-        width: 17
-        height: 20
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: red_jump_33
-      rect:
-        serializedVersion: 2
-        x: 1666
-        y: 8
-        width: 17
-        height: 20
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: red_jump_34
-      rect:
-        serializedVersion: 2
-        x: 1716
-        y: 8
-        width: 17
-        height: 20
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: red_jump_35
-      rect:
-        serializedVersion: 2
-        x: 1766
-        y: 8
-        width: 17
-        height: 20
+        x: 150
+        y: 0
+        width: 50
+        height: 50
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}

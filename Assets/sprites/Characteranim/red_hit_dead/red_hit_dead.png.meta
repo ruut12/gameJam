@@ -115,10 +115,10 @@ TextureImporter:
       name: red_hit_dead_0
       rect:
         serializedVersion: 2
-        x: 17
-        y: 7
-        width: 17
-        height: 22
+        x: 0
+        y: 200
+        width: 50
+        height: 50
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -129,10 +129,10 @@ TextureImporter:
       name: red_hit_dead_1
       rect:
         serializedVersion: 2
-        x: 67
-        y: 7
-        width: 17
-        height: 22
+        x: 50
+        y: 200
+        width: 50
+        height: 50
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -143,10 +143,10 @@ TextureImporter:
       name: red_hit_dead_2
       rect:
         serializedVersion: 2
-        x: 116
-        y: 7
-        width: 16
-        height: 23
+        x: 100
+        y: 200
+        width: 50
+        height: 50
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -157,10 +157,10 @@ TextureImporter:
       name: red_hit_dead_3
       rect:
         serializedVersion: 2
-        x: 164
-        y: 7
-        width: 15
-        height: 23
+        x: 150
+        y: 200
+        width: 50
+        height: 50
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -171,10 +171,10 @@ TextureImporter:
       name: red_hit_dead_4
       rect:
         serializedVersion: 2
-        x: 208
-        y: 10
-        width: 24
-        height: 17
+        x: 200
+        y: 200
+        width: 50
+        height: 50
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -185,10 +185,10 @@ TextureImporter:
       name: red_hit_dead_5
       rect:
         serializedVersion: 2
-        x: 257
-        y: 11
-        width: 28
-        height: 15
+        x: 250
+        y: 200
+        width: 50
+        height: 50
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -199,10 +199,10 @@ TextureImporter:
       name: red_hit_dead_6
       rect:
         serializedVersion: 2
-        x: 307
-        y: 11
-        width: 29
-        height: 13
+        x: 300
+        y: 200
+        width: 50
+        height: 50
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -213,10 +213,10 @@ TextureImporter:
       name: red_hit_dead_7
       rect:
         serializedVersion: 2
-        x: 357
-        y: 12
-        width: 28
-        height: 15
+        x: 0
+        y: 150
+        width: 50
+        height: 50
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -227,10 +227,10 @@ TextureImporter:
       name: red_hit_dead_8
       rect:
         serializedVersion: 2
-        x: 407
-        y: 11
-        width: 28
-        height: 16
+        x: 50
+        y: 150
+        width: 50
+        height: 50
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -241,10 +241,10 @@ TextureImporter:
       name: red_hit_dead_9
       rect:
         serializedVersion: 2
-        x: 457
-        y: 10
-        width: 28
-        height: 15
+        x: 100
+        y: 150
+        width: 50
+        height: 50
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -255,10 +255,10 @@ TextureImporter:
       name: red_hit_dead_10
       rect:
         serializedVersion: 2
-        x: 510
-        y: 11
-        width: 25
-        height: 15
+        x: 150
+        y: 150
+        width: 50
+        height: 50
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -269,10 +269,10 @@ TextureImporter:
       name: red_hit_dead_11
       rect:
         serializedVersion: 2
-        x: 559
-        y: 10
-        width: 26
-        height: 15
+        x: 200
+        y: 150
+        width: 50
+        height: 50
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -283,10 +283,10 @@ TextureImporter:
       name: red_hit_dead_12
       rect:
         serializedVersion: 2
-        x: 609
-        y: 10
-        width: 26
-        height: 15
+        x: 250
+        y: 150
+        width: 50
+        height: 50
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -297,10 +297,10 @@ TextureImporter:
       name: red_hit_dead_13
       rect:
         serializedVersion: 2
-        x: 658
-        y: 7
-        width: 26
-        height: 15
+        x: 0
+        y: 100
+        width: 50
+        height: 50
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -311,10 +311,10 @@ TextureImporter:
       name: red_hit_dead_14
       rect:
         serializedVersion: 2
-        x: 707
-        y: 5
-        width: 28
-        height: 15
+        x: 50
+        y: 100
+        width: 50
+        height: 50
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -325,10 +325,10 @@ TextureImporter:
       name: red_hit_dead_15
       rect:
         serializedVersion: 2
-        x: 758
-        y: 5
-        width: 27
-        height: 12
+        x: 100
+        y: 100
+        width: 50
+        height: 50
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -339,10 +339,10 @@ TextureImporter:
       name: red_hit_dead_16
       rect:
         serializedVersion: 2
-        x: 808
-        y: 5
-        width: 27
-        height: 12
+        x: 150
+        y: 100
+        width: 50
+        height: 50
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -353,10 +353,10 @@ TextureImporter:
       name: red_hit_dead_17
       rect:
         serializedVersion: 2
-        x: 858
-        y: 5
-        width: 27
-        height: 12
+        x: 200
+        y: 100
+        width: 50
+        height: 50
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -367,10 +367,10 @@ TextureImporter:
       name: red_hit_dead_18
       rect:
         serializedVersion: 2
-        x: 908
-        y: 5
-        width: 27
-        height: 12
+        x: 250
+        y: 100
+        width: 50
+        height: 50
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -381,10 +381,10 @@ TextureImporter:
       name: red_hit_dead_19
       rect:
         serializedVersion: 2
-        x: 958
-        y: 5
-        width: 27
-        height: 12
+        x: 0
+        y: 50
+        width: 50
+        height: 50
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -395,10 +395,10 @@ TextureImporter:
       name: red_hit_dead_20
       rect:
         serializedVersion: 2
-        x: 1008
-        y: 5
-        width: 27
-        height: 12
+        x: 50
+        y: 50
+        width: 50
+        height: 50
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -409,10 +409,10 @@ TextureImporter:
       name: red_hit_dead_21
       rect:
         serializedVersion: 2
-        x: 1058
-        y: 5
-        width: 27
-        height: 12
+        x: 100
+        y: 50
+        width: 50
+        height: 50
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -423,10 +423,10 @@ TextureImporter:
       name: red_hit_dead_22
       rect:
         serializedVersion: 2
-        x: 1108
-        y: 5
-        width: 27
-        height: 12
+        x: 150
+        y: 50
+        width: 50
+        height: 50
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -437,10 +437,10 @@ TextureImporter:
       name: red_hit_dead_23
       rect:
         serializedVersion: 2
-        x: 1158
-        y: 5
-        width: 27
-        height: 12
+        x: 200
+        y: 50
+        width: 50
+        height: 50
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -451,10 +451,10 @@ TextureImporter:
       name: red_hit_dead_24
       rect:
         serializedVersion: 2
-        x: 1208
-        y: 5
-        width: 27
-        height: 12
+        x: 250
+        y: 50
+        width: 50
+        height: 50
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -465,10 +465,10 @@ TextureImporter:
       name: red_hit_dead_25
       rect:
         serializedVersion: 2
-        x: 1258
-        y: 5
-        width: 27
-        height: 12
+        x: 0
+        y: 0
+        width: 50
+        height: 50
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -479,10 +479,10 @@ TextureImporter:
       name: red_hit_dead_26
       rect:
         serializedVersion: 2
-        x: 1308
-        y: 5
-        width: 27
-        height: 12
+        x: 50
+        y: 0
+        width: 50
+        height: 50
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -493,10 +493,10 @@ TextureImporter:
       name: red_hit_dead_27
       rect:
         serializedVersion: 2
-        x: 1358
-        y: 5
-        width: 27
-        height: 12
+        x: 100
+        y: 0
+        width: 50
+        height: 50
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -507,10 +507,10 @@ TextureImporter:
       name: red_hit_dead_28
       rect:
         serializedVersion: 2
-        x: 1408
-        y: 5
-        width: 27
-        height: 12
+        x: 150
+        y: 0
+        width: 50
+        height: 50
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -521,10 +521,10 @@ TextureImporter:
       name: red_hit_dead_29
       rect:
         serializedVersion: 2
-        x: 1458
-        y: 5
-        width: 27
-        height: 12
+        x: 200
+        y: 0
+        width: 50
+        height: 50
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -535,10 +535,10 @@ TextureImporter:
       name: red_hit_dead_30
       rect:
         serializedVersion: 2
-        x: 1508
-        y: 5
-        width: 27
-        height: 12
+        x: 250
+        y: 0
+        width: 50
+        height: 50
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
