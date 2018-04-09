@@ -7,7 +7,7 @@ using UnityEngine.SceneManagement;
 public class GameState : MonoBehaviour {
     public Scene game, menu;
     public string gameSceneName = "4 players";
-    public string gameMenuName = "LarsScene";
+    public string gameMenuName = "PlayerSelect";
     public int playerCount;
     public static bool gameSceneLoaded;
 
@@ -32,8 +32,6 @@ public class GameState : MonoBehaviour {
 
         //Debug.Log("startGame");
         SceneManager.LoadScene (gameSceneName);
-
-
     }
 
     public void ResetGame()
