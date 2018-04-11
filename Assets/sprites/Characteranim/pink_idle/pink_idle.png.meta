@@ -114,8 +114,8 @@ TextureImporter:
       name: pink_idle_1
       rect:
         serializedVersion: 2
-        x: 50
-        y: 200
+        x: 0
+        y: 150
         width: 50
         height: 50
       alignment: 0
@@ -128,8 +128,8 @@ TextureImporter:
       name: pink_idle_2
       rect:
         serializedVersion: 2
-        x: 100
-        y: 200
+        x: 0
+        y: 100
         width: 50
         height: 50
       alignment: 0
@@ -143,7 +143,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 0
-        y: 150
+        y: 50
         width: 50
         height: 50
       alignment: 0
@@ -156,8 +156,8 @@ TextureImporter:
       name: pink_idle_4
       rect:
         serializedVersion: 2
-        x: 50
-        y: 150
+        x: 0
+        y: 0
         width: 50
         height: 50
       alignment: 0
@@ -170,8 +170,8 @@ TextureImporter:
       name: pink_idle_5
       rect:
         serializedVersion: 2
-        x: 100
-        y: 150
+        x: 50
+        y: 200
         width: 50
         height: 50
       alignment: 0
@@ -184,8 +184,8 @@ TextureImporter:
       name: pink_idle_6
       rect:
         serializedVersion: 2
-        x: 0
-        y: 100
+        x: 50
+        y: 150
         width: 50
         height: 50
       alignment: 0
@@ -212,7 +212,7 @@ TextureImporter:
       name: pink_idle_8
       rect:
         serializedVersion: 2
-        x: 0
+        x: 50
         y: 50
         width: 50
         height: 50
@@ -227,7 +227,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 50
-        y: 50
+        y: 0
         width: 50
         height: 50
       alignment: 0
@@ -240,8 +240,8 @@ TextureImporter:
       name: pink_idle_10
       rect:
         serializedVersion: 2
-        x: 0
-        y: 0
+        x: 100
+        y: 200
         width: 50
         height: 50
       alignment: 0
@@ -254,8 +254,8 @@ TextureImporter:
       name: pink_idle_11
       rect:
         serializedVersion: 2
-        x: 50
-        y: 0
+        x: 100
+        y: 150
         width: 50
         height: 50
       alignment: 0
