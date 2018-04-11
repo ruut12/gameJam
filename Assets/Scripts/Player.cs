@@ -7,8 +7,6 @@ public class Player : MonoBehaviour
     public float maxJumpHeight = 4f;
     public float minJumpHeight = 1f;
     public float timeToJumpApex = .4f;
-    private float accelerationTimeAirborne = .2f;
-    private float accelerationTimeGrounded = .1f;
     public float moveSpeed = 6f;
 
     public Vector2 wallJumpClimb;
@@ -16,10 +14,21 @@ public class Player : MonoBehaviour
     public Vector2 wallLeap;
 
     public bool canDoubleJump;
-    private bool isDoubleJumping = false;
 
     public float wallSlideSpeedMax = 3f;
     public float wallStickTime = .25f;
+
+    public Text LivesText;
+
+    public bool pushing;
+    public bool damaged;
+    public bool dead;
+
+    private float accelerationTimeAirborne = .2f;
+    private float accelerationTimeGrounded = .1f;
+
+    private bool isDoubleJumping = false;
+
     private float timeToWallUnstick;
 
     private float gravity;
@@ -34,12 +43,7 @@ public class Player : MonoBehaviour
     private bool wallSliding;
     private int wallDirX;
 
-	public int lives = 3;
-	public Text LivesText;
-
-    Animator animator;
-    public bool pushing;
-    public bool damaged;
+    private Animator animator;
 
     private void Start()
     {
@@ -50,8 +54,8 @@ public class Player : MonoBehaviour
 
         animator = gameObject.GetComponent<Animator>();
 
-		//LivesText = GetComponent<Text>();
-		//LivesText.text = "Lives left: " + lives;
+        //LivesText = GetComponent<Text>();
+        //LivesText.text = "Lives left: " + lives;
     }
 
     private void Update()
@@ -71,7 +75,7 @@ public class Player : MonoBehaviour
         if(animator != null)
         {
             animator.SetBool("grounded", controller.collisions.below);
-            animator.SetBool("dead", lives < 1);
+            animator.SetBool("dead", dead);
             animator.SetBool("damaged", damaged);
             animator.SetBool("pushing", pushing);
             animator.SetFloat("speed", Mathf.Abs(directionalInput.x));
@@ -177,21 +181,4 @@ public class Player : MonoBehaviour
         velocity.x = Mathf.SmoothDamp(velocity.x, targetVelocityX, ref velocityXSmoothing, (controller.collisions.below ? accelerationTimeGrounded : accelerationTimeAirborne));
         velocity.y += gravity * Time.deltaTime;
     }
-
-	void OnCollisionEnter2D(Collision2D col){
-		switch (col.gameObject.tag) {
-		case "teleport":
-			//transform.position = col.transform.GetChild (0).position;
-			break;
-		case "DangerCollider":
-			
-			lives -= 1;
-			if (lives < 1) {
-				var script = Camera.main.GetComponent<CameraShake>();
-				script.shakecamera ();
-				Debug.Log ("game over");
-			}
-			break;
-		}
-	}
 }

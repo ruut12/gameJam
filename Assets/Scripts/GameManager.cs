@@ -20,7 +20,7 @@ public class GameManager : MonoBehaviour {
         }
         else
         {
-            PlayerOneScore.lives = 0;
+            GameObject.Find("PlayerOne").GetComponent<PlayerScore>().SetLivesZero();
         }
         if (GameState.p2ReadyPress == 2)
         {
@@ -28,7 +28,7 @@ public class GameManager : MonoBehaviour {
         }
         else
         {
-            PlayerTwoScore.lives = 0;
+            GameObject.Find("PlayerTwo").GetComponent<PlayerScore>().SetLivesZero();
         }
         if (GameState.p3ReadyPress == 2)
         {
@@ -36,7 +36,7 @@ public class GameManager : MonoBehaviour {
         }
         else
         {
-            PlayerThreeScore.lives = 0;
+            GameObject.Find("PlayerThree").GetComponent<PlayerScore>().SetLivesZero();
         }
         if (GameState.p4ReadyPress == 2)
         {
@@ -44,7 +44,7 @@ public class GameManager : MonoBehaviour {
         }
         else
         {
-            PlayerFourScore.lives = 0;
+            GameObject.Find("PlayerFour").GetComponent<PlayerScore>().SetLivesZero();
         }
 
         GameObject.Find("PlayerOne").SetActive(GameState.p1ReadyPress == 2);
@@ -66,19 +66,19 @@ public class GameManager : MonoBehaviour {
 	void Update () {
 		if(playersLeft < 2)
         {
-            if(PlayerOneScore.lives > 0)
+            if(GameObject.Find("PlayerOne") != null && GameObject.Find("PlayerOne").GetComponent<PlayerScore>().GetLives() > 0)
             {
                 winScreenName = "winner_blue";
             }
-            if (PlayerTwoScore.lives > 0)
+            if (GameObject.Find("PlayerTwo") != null && GameObject.Find("PlayerTwo").GetComponent<PlayerScore>().GetLives() > 0)
             {
                 winScreenName = "winner_green";
             }
-            if (PlayerThreeScore.lives > 0)
+            if (GameObject.Find("PlayerThree") != null && GameObject.Find("PlayerThree").GetComponent<PlayerScore>().GetLives() > 0)
             {
                 winScreenName = "winner_red";
             }
-            if (PlayerFourScore.lives > 0)
+            if (GameObject.Find("PlayerFour") != null && GameObject.Find("PlayerFour").GetComponent<PlayerScore>().GetLives() > 0)
             {
                 winScreenName = "winner_pink";
             }
