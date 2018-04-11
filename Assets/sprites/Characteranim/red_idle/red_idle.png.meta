@@ -96,10 +96,10 @@ TextureImporter:
       name: red_idle_0
       rect:
         serializedVersion: 2
-        x: 16
-        y: 7
-        width: 18
-        height: 22
+        x: 0
+        y: 200
+        width: 50
+        height: 50
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -110,10 +110,10 @@ TextureImporter:
       name: red_idle_1
       rect:
         serializedVersion: 2
-        x: 66
-        y: 7
-        width: 18
-        height: 22
+        x: 50
+        y: 200
+        width: 50
+        height: 50
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -124,10 +124,10 @@ TextureImporter:
       name: red_idle_2
       rect:
         serializedVersion: 2
-        x: 116
-        y: 7
-        width: 18
-        height: 22
+        x: 100
+        y: 200
+        width: 50
+        height: 50
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -138,10 +138,10 @@ TextureImporter:
       name: red_idle_3
       rect:
         serializedVersion: 2
-        x: 165
-        y: 7
-        width: 18
-        height: 21
+        x: 0
+        y: 150
+        width: 50
+        height: 50
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -152,10 +152,10 @@ TextureImporter:
       name: red_idle_4
       rect:
         serializedVersion: 2
-        x: 215
-        y: 7
-        width: 18
-        height: 21
+        x: 50
+        y: 150
+        width: 50
+        height: 50
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -166,10 +166,10 @@ TextureImporter:
       name: red_idle_5
       rect:
         serializedVersion: 2
-        x: 265
-        y: 7
-        width: 18
-        height: 21
+        x: 100
+        y: 150
+        width: 50
+        height: 50
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -180,10 +180,10 @@ TextureImporter:
       name: red_idle_6
       rect:
         serializedVersion: 2
-        x: 316
-        y: 7
-        width: 18
-        height: 22
+        x: 0
+        y: 100
+        width: 50
+        height: 50
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -194,10 +194,10 @@ TextureImporter:
       name: red_idle_7
       rect:
         serializedVersion: 2
-        x: 366
-        y: 7
-        width: 18
-        height: 22
+        x: 50
+        y: 100
+        width: 50
+        height: 50
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -208,10 +208,10 @@ TextureImporter:
       name: red_idle_8
       rect:
         serializedVersion: 2
-        x: 416
-        y: 7
-        width: 18
-        height: 22
+        x: 0
+        y: 50
+        width: 50
+        height: 50
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -222,10 +222,10 @@ TextureImporter:
       name: red_idle_9
       rect:
         serializedVersion: 2
-        x: 467
-        y: 7
-        width: 18
-        height: 21
+        x: 50
+        y: 50
+        width: 50
+        height: 50
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -236,10 +236,10 @@ TextureImporter:
       name: red_idle_10
       rect:
         serializedVersion: 2
-        x: 517
-        y: 7
-        width: 18
-        height: 21
+        x: 0
+        y: 0
+        width: 50
+        height: 50
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -250,10 +250,10 @@ TextureImporter:
       name: red_idle_11
       rect:
         serializedVersion: 2
-        x: 567
-        y: 7
-        width: 18
-        height: 21
+        x: 50
+        y: 0
+        width: 50
+        height: 50
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}

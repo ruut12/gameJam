@@ -98,10 +98,10 @@ TextureImporter:
       name: red_hit_stand_0
       rect:
         serializedVersion: 2
-        x: 17
-        y: 7
-        width: 17
-        height: 22
+        x: 0
+        y: 200
+        width: 50
+        height: 50
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -112,10 +112,10 @@ TextureImporter:
       name: red_hit_stand_1
       rect:
         serializedVersion: 2
-        x: 67
-        y: 7
-        width: 17
-        height: 22
+        x: 50
+        y: 200
+        width: 50
+        height: 50
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -126,10 +126,10 @@ TextureImporter:
       name: red_hit_stand_2
       rect:
         serializedVersion: 2
-        x: 116
-        y: 7
-        width: 16
-        height: 22
+        x: 100
+        y: 200
+        width: 50
+        height: 50
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -140,10 +140,10 @@ TextureImporter:
       name: red_hit_stand_3
       rect:
         serializedVersion: 2
-        x: 165
-        y: 7
-        width: 15
-        height: 21
+        x: 0
+        y: 150
+        width: 50
+        height: 50
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -154,10 +154,10 @@ TextureImporter:
       name: red_hit_stand_4
       rect:
         serializedVersion: 2
-        x: 214
-        y: 8
-        width: 15
-        height: 21
+        x: 50
+        y: 150
+        width: 50
+        height: 50
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -168,10 +168,10 @@ TextureImporter:
       name: red_hit_stand_5
       rect:
         serializedVersion: 2
-        x: 265
-        y: 7
-        width: 17
-        height: 22
+        x: 100
+        y: 150
+        width: 50
+        height: 50
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -182,10 +182,10 @@ TextureImporter:
       name: red_hit_stand_6
       rect:
         serializedVersion: 2
-        x: 312
-        y: 7
-        width: 20
-        height: 22
+        x: 0
+        y: 100
+        width: 50
+        height: 50
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -196,10 +196,10 @@ TextureImporter:
       name: red_hit_stand_7
       rect:
         serializedVersion: 2
-        x: 362
-        y: 7
-        width: 20
-        height: 22
+        x: 50
+        y: 100
+        width: 50
+        height: 50
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -210,10 +210,10 @@ TextureImporter:
       name: red_hit_stand_8
       rect:
         serializedVersion: 2
-        x: 415
-        y: 7
-        width: 19
-        height: 20
+        x: 100
+        y: 100
+        width: 50
+        height: 50
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -224,10 +224,10 @@ TextureImporter:
       name: red_hit_stand_9
       rect:
         serializedVersion: 2
-        x: 465
-        y: 7
-        width: 19
-        height: 20
+        x: 0
+        y: 50
+        width: 50
+        height: 50
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -238,10 +238,10 @@ TextureImporter:
       name: red_hit_stand_10
       rect:
         serializedVersion: 2
-        x: 517
-        y: 7
-        width: 16
-        height: 21
+        x: 50
+        y: 50
+        width: 50
+        height: 50
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -252,10 +252,10 @@ TextureImporter:
       name: red_hit_stand_11
       rect:
         serializedVersion: 2
-        x: 567
-        y: 7
-        width: 16
-        height: 21
+        x: 100
+        y: 50
+        width: 50
+        height: 50
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -266,10 +266,10 @@ TextureImporter:
       name: red_hit_stand_12
       rect:
         serializedVersion: 2
-        x: 617
-        y: 7
-        width: 17
-        height: 22
+        x: 0
+        y: 0
+        width: 50
+        height: 50
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -280,10 +280,10 @@ TextureImporter:
       name: red_hit_stand_13
       rect:
         serializedVersion: 2
-        x: 667
-        y: 7
-        width: 17
-        height: 22
+        x: 50
+        y: 0
+        width: 50
+        height: 50
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}

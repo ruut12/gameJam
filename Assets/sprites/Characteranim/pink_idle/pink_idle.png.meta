@@ -100,10 +100,10 @@ TextureImporter:
       name: pink_idle_0
       rect:
         serializedVersion: 2
-        x: 17
-        y: 7
-        width: 18
-        height: 24
+        x: 0
+        y: 200
+        width: 50
+        height: 50
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -114,10 +114,10 @@ TextureImporter:
       name: pink_idle_1
       rect:
         serializedVersion: 2
-        x: 67
-        y: 7
-        width: 18
-        height: 24
+        x: 50
+        y: 200
+        width: 50
+        height: 50
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -128,10 +128,10 @@ TextureImporter:
       name: pink_idle_2
       rect:
         serializedVersion: 2
-        x: 117
-        y: 7
-        width: 18
-        height: 24
+        x: 100
+        y: 200
+        width: 50
+        height: 50
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -142,10 +142,10 @@ TextureImporter:
       name: pink_idle_3
       rect:
         serializedVersion: 2
-        x: 167
-        y: 7
-        width: 18
-        height: 24
+        x: 0
+        y: 150
+        width: 50
+        height: 50
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -156,10 +156,10 @@ TextureImporter:
       name: pink_idle_4
       rect:
         serializedVersion: 2
-        x: 216
-        y: 7
-        width: 17
-        height: 25
+        x: 50
+        y: 150
+        width: 50
+        height: 50
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -170,10 +170,10 @@ TextureImporter:
       name: pink_idle_5
       rect:
         serializedVersion: 2
-        x: 266
-        y: 7
-        width: 17
-        height: 25
+        x: 100
+        y: 150
+        width: 50
+        height: 50
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -184,10 +184,10 @@ TextureImporter:
       name: pink_idle_6
       rect:
         serializedVersion: 2
-        x: 316
-        y: 7
-        width: 17
-        height: 25
+        x: 0
+        y: 100
+        width: 50
+        height: 50
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -198,10 +198,10 @@ TextureImporter:
       name: pink_idle_7
       rect:
         serializedVersion: 2
-        x: 366
-        y: 7
-        width: 17
-        height: 25
+        x: 50
+        y: 100
+        width: 50
+        height: 50
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -212,10 +212,10 @@ TextureImporter:
       name: pink_idle_8
       rect:
         serializedVersion: 2
-        x: 417
-        y: 7
-        width: 17
-        height: 26
+        x: 0
+        y: 50
+        width: 50
+        height: 50
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -226,10 +226,10 @@ TextureImporter:
       name: pink_idle_9
       rect:
         serializedVersion: 2
-        x: 467
-        y: 7
-        width: 17
-        height: 26
+        x: 50
+        y: 50
+        width: 50
+        height: 50
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -240,10 +240,10 @@ TextureImporter:
       name: pink_idle_10
       rect:
         serializedVersion: 2
-        x: 517
-        y: 7
-        width: 17
-        height: 26
+        x: 0
+        y: 0
+        width: 50
+        height: 50
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -254,66 +254,10 @@ TextureImporter:
       name: pink_idle_11
       rect:
         serializedVersion: 2
-        x: 567
-        y: 7
-        width: 17
-        height: 26
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: pink_idle_12
-      rect:
-        serializedVersion: 2
-        x: 618
-        y: 7
-        width: 19
-        height: 22
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: pink_idle_13
-      rect:
-        serializedVersion: 2
-        x: 668
-        y: 7
-        width: 19
-        height: 22
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: pink_idle_14
-      rect:
-        serializedVersion: 2
-        x: 718
-        y: 7
-        width: 19
-        height: 22
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: pink_idle_15
-      rect:
-        serializedVersion: 2
-        x: 768
-        y: 7
-        width: 19
-        height: 22
+        x: 50
+        y: 0
+        width: 50
+        height: 50
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
