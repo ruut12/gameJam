@@ -28,10 +28,6 @@ TextureImporter:
     21300042: blue_push_21
     21300044: blue_push_22
     21300046: blue_push_23
-    21300048: blue_push_24
-    21300050: blue_push_25
-    21300052: blue_push_26
-    21300054: blue_push_27
   externalObjects: {}
   serializedVersion: 4
   mipmaps:
@@ -112,10 +108,10 @@ TextureImporter:
       name: blue_push_0
       rect:
         serializedVersion: 2
-        x: 0
-        y: 100
-        width: 50
-        height: 50
+        x: 18
+        y: 7
+        width: 16
+        height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -126,10 +122,10 @@ TextureImporter:
       name: blue_push_1
       rect:
         serializedVersion: 2
-        x: 50
-        y: 100
-        width: 50
-        height: 50
+        x: 68
+        y: 7
+        width: 16
+        height: 23
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -140,10 +136,10 @@ TextureImporter:
       name: blue_push_2
       rect:
         serializedVersion: 2
-        x: 100
-        y: 100
-        width: 50
-        height: 50
+        x: 118
+        y: 7
+        width: 16
+        height: 23
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -154,10 +150,10 @@ TextureImporter:
       name: blue_push_3
       rect:
         serializedVersion: 2
-        x: 150
-        y: 100
-        width: 50
-        height: 50
+        x: 168
+        y: 7
+        width: 16
+        height: 21
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -168,10 +164,10 @@ TextureImporter:
       name: blue_push_4
       rect:
         serializedVersion: 2
-        x: 200
-        y: 100
-        width: 50
-        height: 50
+        x: 218
+        y: 7
+        width: 13
+        height: 33
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -182,10 +178,10 @@ TextureImporter:
       name: blue_push_5
       rect:
         serializedVersion: 2
-        x: 250
-        y: 100
-        width: 50
-        height: 50
+        x: 260
+        y: 7
+        width: 30
+        height: 27
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -196,10 +192,10 @@ TextureImporter:
       name: blue_push_6
       rect:
         serializedVersion: 2
-        x: 300
-        y: 100
-        width: 50
-        height: 50
+        x: 310
+        y: 7
+        width: 30
+        height: 27
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -210,10 +206,10 @@ TextureImporter:
       name: blue_push_7
       rect:
         serializedVersion: 2
-        x: 350
-        y: 100
-        width: 50
-        height: 50
+        x: 363
+        y: 7
+        width: 23
+        height: 25
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -224,10 +220,10 @@ TextureImporter:
       name: blue_push_8
       rect:
         serializedVersion: 2
-        x: 400
-        y: 100
-        width: 50
-        height: 50
+        x: 413
+        y: 7
+        width: 23
+        height: 25
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -238,10 +234,10 @@ TextureImporter:
       name: blue_push_9
       rect:
         serializedVersion: 2
-        x: 450
-        y: 100
-        width: 50
-        height: 50
+        x: 464
+        y: 7
+        width: 21
+        height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -252,10 +248,10 @@ TextureImporter:
       name: blue_push_10
       rect:
         serializedVersion: 2
-        x: 0
-        y: 50
-        width: 50
-        height: 50
+        x: 514
+        y: 7
+        width: 21
+        height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -266,10 +262,10 @@ TextureImporter:
       name: blue_push_11
       rect:
         serializedVersion: 2
-        x: 50
-        y: 50
-        width: 50
-        height: 50
+        x: 564
+        y: 7
+        width: 21
+        height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -280,10 +276,10 @@ TextureImporter:
       name: blue_push_12
       rect:
         serializedVersion: 2
-        x: 100
-        y: 50
-        width: 50
-        height: 50
+        x: 614
+        y: 7
+        width: 21
+        height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -294,10 +290,10 @@ TextureImporter:
       name: blue_push_13
       rect:
         serializedVersion: 2
-        x: 150
-        y: 50
-        width: 50
-        height: 50
+        x: 664
+        y: 7
+        width: 21
+        height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -308,10 +304,10 @@ TextureImporter:
       name: blue_push_14
       rect:
         serializedVersion: 2
-        x: 200
-        y: 50
-        width: 50
-        height: 50
+        x: 714
+        y: 7
+        width: 21
+        height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -322,10 +318,10 @@ TextureImporter:
       name: blue_push_15
       rect:
         serializedVersion: 2
-        x: 250
-        y: 50
-        width: 50
-        height: 50
+        x: 764
+        y: 7
+        width: 21
+        height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -336,10 +332,10 @@ TextureImporter:
       name: blue_push_16
       rect:
         serializedVersion: 2
-        x: 300
-        y: 50
-        width: 50
-        height: 50
+        x: 814
+        y: 7
+        width: 21
+        height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -350,10 +346,10 @@ TextureImporter:
       name: blue_push_17
       rect:
         serializedVersion: 2
-        x: 350
-        y: 50
-        width: 50
-        height: 50
+        x: 864
+        y: 7
+        width: 21
+        height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -364,10 +360,10 @@ TextureImporter:
       name: blue_push_18
       rect:
         serializedVersion: 2
-        x: 400
-        y: 50
-        width: 50
-        height: 50
+        x: 914
+        y: 7
+        width: 21
+        height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -378,10 +374,10 @@ TextureImporter:
       name: blue_push_19
       rect:
         serializedVersion: 2
-        x: 450
-        y: 50
-        width: 50
-        height: 50
+        x: 964
+        y: 7
+        width: 21
+        height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -392,10 +388,10 @@ TextureImporter:
       name: blue_push_20
       rect:
         serializedVersion: 2
-        x: 0
-        y: 0
-        width: 50
-        height: 50
+        x: 1014
+        y: 7
+        width: 21
+        height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -406,10 +402,10 @@ TextureImporter:
       name: blue_push_21
       rect:
         serializedVersion: 2
-        x: 50
-        y: 0
-        width: 50
-        height: 50
+        x: 1064
+        y: 7
+        width: 21
+        height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -420,10 +416,10 @@ TextureImporter:
       name: blue_push_22
       rect:
         serializedVersion: 2
-        x: 100
-        y: 0
-        width: 50
-        height: 50
+        x: 1114
+        y: 7
+        width: 21
+        height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -434,66 +430,10 @@ TextureImporter:
       name: blue_push_23
       rect:
         serializedVersion: 2
-        x: 150
-        y: 0
-        width: 50
-        height: 50
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: blue_push_24
-      rect:
-        serializedVersion: 2
-        x: 200
-        y: 0
-        width: 50
-        height: 50
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: blue_push_25
-      rect:
-        serializedVersion: 2
-        x: 250
-        y: 0
-        width: 50
-        height: 50
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: blue_push_26
-      rect:
-        serializedVersion: 2
-        x: 300
-        y: 0
-        width: 50
-        height: 50
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: blue_push_27
-      rect:
-        serializedVersion: 2
-        x: 350
-        y: 0
-        width: 50
-        height: 50
+        x: 1164
+        y: 7
+        width: 21
+        height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
