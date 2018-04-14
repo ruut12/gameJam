@@ -1,9 +1,19 @@
 fileFormatVersion: 2
+<<<<<<< HEAD
+guid: 74b81efc1ce7e30409b52bcbdbc9f119
+timeCreated: 1523704848
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName: {}
+  externalObjects: {}
+  serializedVersion: 4
+=======
 guid: 401deb0ae82665444a4322194b86ad15
 TextureImporter:
   fileIDToRecycleName: {}
   externalObjects: {}
   serializedVersion: 5
+>>>>>>> 078669ae270e64e0f488aa241d8f202db37e644b
   mipmaps:
     mipMapMode: 0
     enableMipMap: 0
@@ -29,33 +39,58 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
+<<<<<<< HEAD
+    filterMode: -1
+=======
     filterMode: 0
+>>>>>>> 078669ae270e64e0f488aa241d8f202db37e644b
     aniso: -1
     mipBias: -1
     wrapU: 1
     wrapV: 1
+<<<<<<< HEAD
+    wrapW: 1
+=======
     wrapW: -1
+>>>>>>> 078669ae270e64e0f488aa241d8f202db37e644b
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
   spriteMode: 1
   spriteExtrude: 1
+<<<<<<< HEAD
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+=======
   spriteMeshType: 0
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
   spritePixelsToUnits: 25
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 0
+>>>>>>> 078669ae270e64e0f488aa241d8f202db37e644b
   alphaUsage: 1
   alphaIsTransparency: 1
   spriteTessellationDetail: -1
   textureType: 8
   textureShape: 1
+<<<<<<< HEAD
+=======
   singleChannelComponent: 0
+>>>>>>> 078669ae270e64e0f488aa241d8f202db37e644b
   maxTextureSizeSet: 0
   compressionQualitySet: 0
   textureFormatSet: 0
   platformSettings:
+<<<<<<< HEAD
+  - buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+=======
   - serializedVersion: 2
     buildTarget: DefaultTexturePlatform
     maxTextureSize: 4096
@@ -82,6 +117,7 @@ TextureImporter:
     buildTarget: Android
     maxTextureSize: 4096
     resizeAlgorithm: 1
+>>>>>>> 078669ae270e64e0f488aa241d8f202db37e644b
     textureFormat: -1
     textureCompression: 1
     compressionQuality: 50
@@ -94,12 +130,15 @@ TextureImporter:
     sprites: []
     outline: []
     physicsShape: []
+<<<<<<< HEAD
+=======
     bones: []
     spriteID: 
     vertices: []
     indices: 
     edges: []
     weights: []
+>>>>>>> 078669ae270e64e0f488aa241d8f202db37e644b
   spritePackingTag: 
   userData: 
   assetBundleName: 
