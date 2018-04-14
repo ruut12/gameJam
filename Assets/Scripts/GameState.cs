@@ -1,10 +1,8 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
-using UnityEngine.UI;
+﻿using UnityEngine;
 using UnityEngine.SceneManagement;
 
-public class GameState : MonoBehaviour {
+public class GameState : MonoBehaviour
+{
     public Scene game, menu;
     public string gameSceneName = "4 players";
     public string gameMenuName = "PlayerSelect";
@@ -18,7 +16,8 @@ public class GameState : MonoBehaviour {
 
 
     // Use this for initialization
-    void Start () {
+    void Start()
+    {
         menu = SceneManager.GetSceneByName(gameMenuName);
         SceneManager.SetActiveScene(menu);
     }
@@ -31,13 +30,26 @@ public class GameState : MonoBehaviour {
         p4ReadyPress = ap4ReadyPress;
 
         //Debug.Log("startGame");
-        SceneManager.LoadScene (gameSceneName);
+        Scene scene = SceneManager.GetActiveScene();
+
+        SceneManager.LoadScene(gameSceneName);
+
+        SceneManager.UnloadSceneAsync(scene);
     }
 
     public void ResetGame()
-    {        
+    {
+        Scene scene = SceneManager.GetActiveScene();
+
+        SceneManager.LoadScene(gameMenuName);
+
+        if (scene != null)
+        {
+            SceneManager.UnloadSceneAsync(scene);
+        }
+        /*
         game = SceneManager.GetSceneByName(gameSceneName);
-        SceneManager.SetActiveScene(game);        
+        SceneManager.SetActiveScene(game);
      
         Debug.Log("player1" + p1ReadyPress);
         Debug.Log("player2" + p2ReadyPress);
@@ -46,14 +58,16 @@ public class GameState : MonoBehaviour {
         Debug.Log("Active Scene : " + SceneManager.GetActiveScene().name);        
 
         SceneManager.UnloadSceneAsync(gameMenuName);
+        */
     }
 
     // Update is called once per frame
-    void Update () {
-		if (gameSceneLoaded)
+    void Update()
+    {
+        if (gameSceneLoaded)
         {
             ResetGame();
             gameSceneLoaded = false;
         }
-	}
+    }
 }
