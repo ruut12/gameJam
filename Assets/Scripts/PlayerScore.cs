@@ -11,12 +11,12 @@ public class PlayerScore : MonoBehaviour
     public int lives = 3;
 
     public Text LivesText;
-    public int deathTime = 3;
+    float deathTime = 1.6f;
     public PlayerInput PlayerRigid;
     public GameObject blood;
 
     float damagedAnimTimer = 0;
-    float damagedAnimTime = 0.3f;
+    float damagedAnimTime = 0.6f;
 
     float hitCooldownTimer = 0;
     float hitCooldownTime = 1;
