@@ -18,8 +18,6 @@ public class Player : MonoBehaviour
     public float wallSlideSpeedMax = 3f;
     public float wallStickTime = .25f;
 
-    public Text LivesText;
-
     public bool pushing;
     public bool damaged;
     public bool dead;
@@ -44,6 +42,8 @@ public class Player : MonoBehaviour
     private int wallDirX;
 
     private Animator animator;
+    private bool grounded;
+    private float lastTimeGrounded;
 
     private void Start()
     {
@@ -53,9 +53,6 @@ public class Player : MonoBehaviour
         minJumpVelocity = Mathf.Sqrt(2 * Mathf.Abs(gravity) * minJumpHeight);
 
         animator = gameObject.GetComponent<Animator>();
-
-        //LivesText = GetComponent<Text>();
-        //LivesText.text = "Lives left: " + lives;
     }
 
     private void Update()
@@ -70,11 +67,9 @@ public class Player : MonoBehaviour
             velocity.y = 0f;
         }
 
-        //update health text
-        //LivesText.text = "Lives left: " + lives;
-        if(animator != null)
+        if (animator != null)
         {
-            animator.SetBool("grounded", controller.collisions.below);
+            animator.SetBool("grounded", Mathf.Abs(velocity.y) < 0.8f);
             animator.SetBool("dead", dead);
             animator.SetBool("damaged", damaged);
             animator.SetBool("pushing", pushing);
@@ -84,7 +79,8 @@ public class Player : MonoBehaviour
         if (directionalInput.x < -0.1)
         {
             transform.localScale = new Vector3(1, 1, 1);
-        } else if (directionalInput.x > 0.1)
+        }
+        else if (directionalInput.x > 0.1)
         {
             transform.localScale = new Vector3(-1, 1, 1);
 

@@ -8,13 +8,15 @@ public class ForcePush : MonoBehaviour
 
     public float radius = 3;
     public float power = 1000;
-    public float PushCooldown = 1;
     public float UpliftMultiplier = 3.0F;
-    public bool canPush = true;
+    public float pushCooldownTime = 0.6f;
 
-    long lasActionTime;
+    bool canPush = true;
+
     float pushingAnimTimer = 0;
     float pushingAnimCd = 0.6f;
+
+    float pushCooldownTimer = 0;
 
     void Start()
     {
@@ -25,10 +27,9 @@ public class ForcePush : MonoBehaviour
     {
         var nowTicks = System.DateTime.Now.Ticks;
 
-        if ((lasActionTime + (PushCooldown * 10000000)) < (nowTicks))
+        if (pushCooldownTimer == 0)
         {
             canPush = true;
-            lasActionTime = nowTicks; // alusta tegemist
         }
 
         if (Input.GetButtonDown(fireButtonName))
@@ -41,6 +42,7 @@ public class ForcePush : MonoBehaviour
                 gameObject.GetComponent<Player>().pushing = true;
                 pushingAnimTimer = pushingAnimCd;
                 Instantiate(pushAnimation, transform.position, Quaternion.identity);
+                pushCooldownTimer = pushCooldownTime;
             }
         }
     }
@@ -56,6 +58,15 @@ public class ForcePush : MonoBehaviour
             else
             {
                 gameObject.GetComponent<Player>().pushing = false;
+            }
+
+            if (pushCooldownTimer > 0)
+            {
+                pushCooldownTimer -= Time.deltaTime;
+            }
+            else
+            {
+                pushCooldownTimer = 0;
             }
         }
     }
