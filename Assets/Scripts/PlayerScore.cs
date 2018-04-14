@@ -10,7 +10,7 @@ public class PlayerScore : MonoBehaviour
 
     public int lives = 3;
 
-    public Text LivesText;
+    public TextMesh LivesText;
     float deathTime = 1.6f;
     public PlayerInput PlayerRigid;
     public GameObject blood;
@@ -21,12 +21,14 @@ public class PlayerScore : MonoBehaviour
     float hitCooldownTimer = 0;
     float hitCooldownTime = 1;
 
+    //TextMesh lives
+
     void Start()
     {
         var score = GameObject.Find(playerScoreObjectName);
         if (score != null)
         {
-            LivesText = score.GetComponent<Text>();
+            LivesText = score.GetComponent<TextMesh>();
         }
 
         PlayerRigid = gameObject.GetComponent<PlayerInput>();
