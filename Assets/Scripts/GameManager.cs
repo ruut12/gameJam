@@ -1,4 +1,6 @@
-﻿using UnityEngine;
+﻿using System;
+using System.Collections.Generic;
+using UnityEngine;
 using UnityEngine.SceneManagement;
 
 public class GameManager : MonoBehaviour
@@ -8,10 +10,9 @@ public class GameManager : MonoBehaviour
     private const string PLAYER_THREE = "PlayerThree";
     private const string PLAYER_FOUR = "PlayerFour";
 
-    public int players = 0;
-    public static int playersLeft = 0;
+    public List<string> players = new List<string>();
+    public List<string> deadPlayers = new List<string>();
     public int gameOver = 0;
-    public string winScreenName;
     public static int winner = 0;
 
     void Start()
@@ -20,7 +21,7 @@ public class GameManager : MonoBehaviour
 
         if (GameState.p1ReadyPress == 2)
         {
-            players++;
+            players.Add(PLAYER_ONE);
         }
         else
         {
@@ -28,7 +29,7 @@ public class GameManager : MonoBehaviour
         }
         if (GameState.p2ReadyPress == 2)
         {
-            players++;
+            players.Add(PLAYER_TWO);
         }
         else
         {
@@ -36,7 +37,7 @@ public class GameManager : MonoBehaviour
         }
         if (GameState.p3ReadyPress == 2)
         {
-            players++;
+            players.Add(PLAYER_THREE);
         }
         else
         {
@@ -44,7 +45,7 @@ public class GameManager : MonoBehaviour
         }
         if (GameState.p4ReadyPress == 2)
         {
-            players++;
+            players.Add(PLAYER_FOUR);
         }
         else
         {
@@ -62,36 +63,51 @@ public class GameManager : MonoBehaviour
 
         GameObject.Find(PLAYER_FOUR).SetActive(GameState.p4ReadyPress == 2);
         GameObject.Find("PlayerFourScore").SetActive(GameState.p4ReadyPress == 2);
-
-        playersLeft = players;
     }
 
     // Update is called once per frame
     void Update()
     {
-        if (playersLeft < 2)
+        if (players.Count < 2)
         {
-            if (GameObject.Find(PLAYER_ONE) != null && GameObject.Find(PLAYER_ONE).GetComponent<PlayerScore>().GetLives() > 0)
+            string playerAlive;
+            string winScreenName = null;
+
+            if (players.Count > 0)
             {
-                winScreenName = "winner_blue";
+                playerAlive = players[0];
             }
-            else if (GameObject.Find(PLAYER_TWO) != null && GameObject.Find(PLAYER_TWO).GetComponent<PlayerScore>().GetLives() > 0)
+            else
             {
-                winScreenName = "winner_green";
-            }
-            else if (GameObject.Find(PLAYER_THREE) != null && GameObject.Find(PLAYER_THREE).GetComponent<PlayerScore>().GetLives() > 0)
-            {
-                winScreenName = "winner_red";
-            }
-            else if (GameObject.Find(PLAYER_FOUR) != null && GameObject.Find(PLAYER_FOUR).GetComponent<PlayerScore>().GetLives() > 0)
-            {
-                winScreenName = "winner_pink";
+                playerAlive = deadPlayers[deadPlayers.Count - 1];
             }
 
-            if (winScreenName != null)
+            switch (playerAlive)
             {
-                SceneManager.LoadScene(winScreenName);
+                case PLAYER_ONE:
+                    winScreenName = "winner_blue";
+                    break;
+                case PLAYER_TWO:
+                    winScreenName = "winner_green";
+                    break;
+                case PLAYER_THREE:
+                    winScreenName = "winner_red";
+                    break;
+                case PLAYER_FOUR:
+                    winScreenName = "winner_pink";
+                    break;
             }
+
+            SceneManager.LoadScene(winScreenName);
+        }
+    }
+
+    internal void RemovePlayer(string name)
+    {
+        if (players.Contains(name))
+        {
+            players.Remove(name);
+            deadPlayers.Add(name);
         }
     }
 }

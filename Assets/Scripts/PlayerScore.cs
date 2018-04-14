@@ -93,8 +93,8 @@ public class PlayerScore : MonoBehaviour
 
     void DestroyObject()
     {
+        FindObjectOfType<GameManager>().RemovePlayer(gameObject.name);
         Destroy(gameObject);
-        GameManager.playersLeft--;
     }
 
     void Update()
