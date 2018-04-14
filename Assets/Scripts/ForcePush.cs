@@ -14,7 +14,7 @@ public class ForcePush : MonoBehaviour
 
     long lasActionTime;
     float pushingAnimTimer = 0;
-    float pushingAnimCd = 0.3f;
+    float pushingAnimCd = 1.0f;
 
     void Start()
     {
