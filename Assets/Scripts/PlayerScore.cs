@@ -74,7 +74,7 @@ public class PlayerScore : MonoBehaviour
             }
         }
 
-        if (lives < 1)
+        if (lives < 1 && !gameObject.GetComponent<Player>().dead)
         {
             //Instantiate (blood, transform.position, Quaternion.identity);
             Debug.Log("game over");
