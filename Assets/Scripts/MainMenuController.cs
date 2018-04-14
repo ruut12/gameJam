@@ -36,7 +36,7 @@ public class MainMenuController : MonoBehaviour {
         if (Input.GetButtonDown(joinButton1) && p1ReadyPress == 0)
         {
             p1Img.SetActive(true);
-            player1Ready.text = "Not ready";
+            player1Ready.text = "Not ready, press x";
             p1ReadyPress = 1;
             players++;
             FindObjectOfType<AudioManager>().Play("bell");
@@ -51,7 +51,7 @@ public class MainMenuController : MonoBehaviour {
         if (Input.GetButtonDown(joinButton2) && p2ReadyPress == 0)
         {
             p2Img.SetActive(true);
-            player2Ready.text = "Not ready";
+            player2Ready.text = "Not ready, press x";
             p2ReadyPress = 1;
             players++;
             FindObjectOfType<AudioManager>().Play("bell");
@@ -66,7 +66,7 @@ public class MainMenuController : MonoBehaviour {
         if (Input.GetButtonDown(joinButton3) && p3ReadyPress == 0)
         {
             p3Img.SetActive(true);
-            player3Ready.text = "Not ready";
+            player3Ready.text = "Not ready, press x";
             p3ReadyPress = 1;
             players++;
             FindObjectOfType<AudioManager>().Play("bell");
@@ -81,7 +81,7 @@ public class MainMenuController : MonoBehaviour {
         if (Input.GetButtonDown(joinButton4) && p4ReadyPress == 0)
         {
             p4Img.SetActive(true);
-            player4Ready.text = "Not ready";
+            player4Ready.text = "Not ready, press x";
             p4ReadyPress = 1;
             players++;
             FindObjectOfType<AudioManager>().Play("bell");

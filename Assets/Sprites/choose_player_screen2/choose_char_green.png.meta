@@ -154,40 +154,60 @@ TextureImporter:
   textureFormatSet: 0
   platformSettings:
   - buildTarget: DefaultTexturePlatform
-    maxTextureSize: 2048
-    resizeAlgorithm: 0
+    maxTextureSize: 8192
+    resizeAlgorithm: 1
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 2
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
     androidETC2FallbackOverride: 0
   - buildTarget: Standalone
-    maxTextureSize: 2048
-    resizeAlgorithm: 0
+    maxTextureSize: 8192
+    resizeAlgorithm: 1
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 2
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
     androidETC2FallbackOverride: 0
   - buildTarget: iPhone
-    maxTextureSize: 2048
-    resizeAlgorithm: 0
+    maxTextureSize: 8192
+    resizeAlgorithm: 1
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 2
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
     androidETC2FallbackOverride: 0
   - buildTarget: Android
-    maxTextureSize: 2048
-    resizeAlgorithm: 0
+    maxTextureSize: 8192
+    resizeAlgorithm: 1
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 2
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - buildTarget: Windows Store Apps
+    maxTextureSize: 8192
+    resizeAlgorithm: 1
+    textureFormat: -1
+    textureCompression: 2
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - buildTarget: WebGL
+    maxTextureSize: 8192
+    resizeAlgorithm: 1
+    textureFormat: -1
+    textureCompression: 2
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -201,7 +221,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 0
-        y: 12690
+        y: 6210
         width: 142
         height: 270
       alignment: 0
@@ -215,7 +235,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 142
-        y: 12690
+        y: 6210
         width: 142
         height: 270
       alignment: 0
@@ -228,8 +248,8 @@ TextureImporter:
       name: choose_char_green_2
       rect:
         serializedVersion: 2
-        x: 0
-        y: 12420
+        x: 284
+        y: 6210
         width: 142
         height: 270
       alignment: 0
@@ -242,8 +262,8 @@ TextureImporter:
       name: choose_char_green_3
       rect:
         serializedVersion: 2
-        x: 142
-        y: 12420
+        x: 426
+        y: 6210
         width: 142
         height: 270
       alignment: 0
@@ -257,7 +277,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 0
-        y: 12150
+        y: 5940
         width: 142
         height: 270
       alignment: 0
@@ -271,7 +291,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 142
-        y: 12150
+        y: 5940
         width: 142
         height: 270
       alignment: 0
@@ -284,8 +304,8 @@ TextureImporter:
       name: choose_char_green_6
       rect:
         serializedVersion: 2
-        x: 0
-        y: 11880
+        x: 284
+        y: 5940
         width: 142
         height: 270
       alignment: 0
@@ -298,8 +318,8 @@ TextureImporter:
       name: choose_char_green_7
       rect:
         serializedVersion: 2
-        x: 142
-        y: 11880
+        x: 426
+        y: 5940
         width: 142
         height: 270
       alignment: 0
@@ -313,7 +333,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 0
-        y: 11610
+        y: 5670
         width: 142
         height: 270
       alignment: 0
@@ -327,7 +347,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 142
-        y: 11610
+        y: 5670
         width: 142
         height: 270
       alignment: 0
@@ -340,8 +360,8 @@ TextureImporter:
       name: choose_char_green_10
       rect:
         serializedVersion: 2
-        x: 0
-        y: 11340
+        x: 284
+        y: 5670
         width: 142
         height: 270
       alignment: 0
@@ -354,8 +374,8 @@ TextureImporter:
       name: choose_char_green_11
       rect:
         serializedVersion: 2
-        x: 142
-        y: 11340
+        x: 426
+        y: 5670
         width: 142
         height: 270
       alignment: 0
@@ -369,7 +389,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 0
-        y: 11070
+        y: 5400
         width: 142
         height: 270
       alignment: 0
@@ -383,7 +403,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 142
-        y: 11070
+        y: 5400
         width: 142
         height: 270
       alignment: 0
@@ -396,8 +416,8 @@ TextureImporter:
       name: choose_char_green_14
       rect:
         serializedVersion: 2
-        x: 0
-        y: 10800
+        x: 284
+        y: 5400
         width: 142
         height: 270
       alignment: 0
@@ -410,8 +430,8 @@ TextureImporter:
       name: choose_char_green_15
       rect:
         serializedVersion: 2
-        x: 142
-        y: 10800
+        x: 426
+        y: 5400
         width: 142
         height: 270
       alignment: 0
@@ -425,7 +445,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 0
-        y: 10530
+        y: 5130
         width: 142
         height: 270
       alignment: 0
@@ -439,7 +459,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 142
-        y: 10530
+        y: 5130
         width: 142
         height: 270
       alignment: 0
@@ -452,8 +472,8 @@ TextureImporter:
       name: choose_char_green_18
       rect:
         serializedVersion: 2
-        x: 0
-        y: 10260
+        x: 284
+        y: 5130
         width: 142
         height: 270
       alignment: 0
@@ -466,8 +486,8 @@ TextureImporter:
       name: choose_char_green_19
       rect:
         serializedVersion: 2
-        x: 142
-        y: 10260
+        x: 426
+        y: 5130
         width: 142
         height: 270
       alignment: 0
@@ -481,7 +501,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 0
-        y: 9990
+        y: 4860
         width: 142
         height: 270
       alignment: 0
@@ -495,7 +515,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 142
-        y: 9990
+        y: 4860
         width: 142
         height: 270
       alignment: 0
@@ -508,8 +528,8 @@ TextureImporter:
       name: choose_char_green_22
       rect:
         serializedVersion: 2
-        x: 0
-        y: 9720
+        x: 284
+        y: 4860
         width: 142
         height: 270
       alignment: 0
@@ -522,8 +542,8 @@ TextureImporter:
       name: choose_char_green_23
       rect:
         serializedVersion: 2
-        x: 142
-        y: 9720
+        x: 426
+        y: 4860
         width: 142
         height: 270
       alignment: 0
@@ -537,7 +557,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 0
-        y: 9450
+        y: 4590
         width: 142
         height: 270
       alignment: 0
@@ -551,7 +571,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 142
-        y: 9450
+        y: 4590
         width: 142
         height: 270
       alignment: 0
@@ -564,8 +584,8 @@ TextureImporter:
       name: choose_char_green_26
       rect:
         serializedVersion: 2
-        x: 0
-        y: 9180
+        x: 284
+        y: 4590
         width: 142
         height: 270
       alignment: 0
@@ -578,8 +598,8 @@ TextureImporter:
       name: choose_char_green_27
       rect:
         serializedVersion: 2
-        x: 142
-        y: 9180
+        x: 426
+        y: 4590
         width: 142
         height: 270
       alignment: 0
@@ -593,7 +613,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 0
-        y: 8910
+        y: 4320
         width: 142
         height: 270
       alignment: 0
@@ -607,7 +627,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 142
-        y: 8910
+        y: 4320
         width: 142
         height: 270
       alignment: 0
@@ -620,8 +640,8 @@ TextureImporter:
       name: choose_char_green_30
       rect:
         serializedVersion: 2
-        x: 0
-        y: 8640
+        x: 284
+        y: 4320
         width: 142
         height: 270
       alignment: 0
@@ -634,8 +654,8 @@ TextureImporter:
       name: choose_char_green_31
       rect:
         serializedVersion: 2
-        x: 142
-        y: 8640
+        x: 426
+        y: 4320
         width: 142
         height: 270
       alignment: 0
@@ -649,7 +669,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 0
-        y: 8370
+        y: 4050
         width: 142
         height: 270
       alignment: 0
@@ -663,7 +683,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 142
-        y: 8370
+        y: 4050
         width: 142
         height: 270
       alignment: 0
@@ -676,8 +696,8 @@ TextureImporter:
       name: choose_char_green_34
       rect:
         serializedVersion: 2
-        x: 0
-        y: 8100
+        x: 284
+        y: 4050
         width: 142
         height: 270
       alignment: 0
@@ -690,8 +710,8 @@ TextureImporter:
       name: choose_char_green_35
       rect:
         serializedVersion: 2
-        x: 142
-        y: 8100
+        x: 426
+        y: 4050
         width: 142
         height: 270
       alignment: 0
@@ -705,7 +725,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 0
-        y: 7830
+        y: 3780
         width: 142
         height: 270
       alignment: 0
@@ -719,7 +739,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 142
-        y: 7830
+        y: 3780
         width: 142
         height: 270
       alignment: 0
@@ -732,8 +752,8 @@ TextureImporter:
       name: choose_char_green_38
       rect:
         serializedVersion: 2
-        x: 0
-        y: 7560
+        x: 284
+        y: 3780
         width: 142
         height: 270
       alignment: 0
@@ -746,8 +766,8 @@ TextureImporter:
       name: choose_char_green_39
       rect:
         serializedVersion: 2
-        x: 142
-        y: 7560
+        x: 426
+        y: 3780
         width: 142
         height: 270
       alignment: 0
@@ -761,7 +781,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 0
-        y: 7290
+        y: 3510
         width: 142
         height: 270
       alignment: 0
@@ -775,7 +795,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 142
-        y: 7290
+        y: 3510
         width: 142
         height: 270
       alignment: 0
@@ -788,8 +808,8 @@ TextureImporter:
       name: choose_char_green_42
       rect:
         serializedVersion: 2
-        x: 0
-        y: 7020
+        x: 284
+        y: 3510
         width: 142
         height: 270
       alignment: 0
@@ -802,8 +822,8 @@ TextureImporter:
       name: choose_char_green_43
       rect:
         serializedVersion: 2
-        x: 142
-        y: 7020
+        x: 426
+        y: 3510
         width: 142
         height: 270
       alignment: 0
@@ -817,7 +837,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 0
-        y: 6750
+        y: 3240
         width: 142
         height: 270
       alignment: 0
@@ -831,7 +851,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 142
-        y: 6750
+        y: 3240
         width: 142
         height: 270
       alignment: 0
@@ -844,8 +864,8 @@ TextureImporter:
       name: choose_char_green_46
       rect:
         serializedVersion: 2
-        x: 0
-        y: 6480
+        x: 284
+        y: 3240
         width: 142
         height: 270
       alignment: 0
@@ -858,8 +878,8 @@ TextureImporter:
       name: choose_char_green_47
       rect:
         serializedVersion: 2
-        x: 142
-        y: 6480
+        x: 426
+        y: 3240
         width: 142
         height: 270
       alignment: 0
@@ -873,7 +893,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 0
-        y: 6210
+        y: 2970
         width: 142
         height: 270
       alignment: 0
@@ -887,7 +907,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 142
-        y: 6210
+        y: 2970
         width: 142
         height: 270
       alignment: 0
@@ -900,8 +920,8 @@ TextureImporter:
       name: choose_char_green_50
       rect:
         serializedVersion: 2
-        x: 0
-        y: 5940
+        x: 284
+        y: 2970
         width: 142
         height: 270
       alignment: 0
@@ -914,8 +934,8 @@ TextureImporter:
       name: choose_char_green_51
       rect:
         serializedVersion: 2
-        x: 142
-        y: 5940
+        x: 426
+        y: 2970
         width: 142
         height: 270
       alignment: 0
@@ -929,7 +949,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 0
-        y: 5670
+        y: 2700
         width: 142
         height: 270
       alignment: 0
@@ -943,7 +963,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 142
-        y: 5670
+        y: 2700
         width: 142
         height: 270
       alignment: 0
@@ -956,8 +976,8 @@ TextureImporter:
       name: choose_char_green_54
       rect:
         serializedVersion: 2
-        x: 0
-        y: 5400
+        x: 284
+        y: 2700
         width: 142
         height: 270
       alignment: 0
@@ -970,8 +990,8 @@ TextureImporter:
       name: choose_char_green_55
       rect:
         serializedVersion: 2
-        x: 142
-        y: 5400
+        x: 426
+        y: 2700
         width: 142
         height: 270
       alignment: 0
@@ -985,7 +1005,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 0
-        y: 5130
+        y: 2430
         width: 142
         height: 270
       alignment: 0
@@ -999,7 +1019,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 142
-        y: 5130
+        y: 2430
         width: 142
         height: 270
       alignment: 0
@@ -1012,8 +1032,8 @@ TextureImporter:
       name: choose_char_green_58
       rect:
         serializedVersion: 2
-        x: 0
-        y: 4860
+        x: 284
+        y: 2430
         width: 142
         height: 270
       alignment: 0
@@ -1026,8 +1046,8 @@ TextureImporter:
       name: choose_char_green_59
       rect:
         serializedVersion: 2
-        x: 142
-        y: 4860
+        x: 426
+        y: 2430
         width: 142
         height: 270
       alignment: 0
@@ -1041,7 +1061,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 0
-        y: 4590
+        y: 2160
         width: 142
         height: 270
       alignment: 0
@@ -1055,7 +1075,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 142
-        y: 4590
+        y: 2160
         width: 142
         height: 270
       alignment: 0
@@ -1068,8 +1088,8 @@ TextureImporter:
       name: choose_char_green_62
       rect:
         serializedVersion: 2
-        x: 0
-        y: 4320
+        x: 284
+        y: 2160
         width: 142
         height: 270
       alignment: 0
@@ -1082,8 +1102,8 @@ TextureImporter:
       name: choose_char_green_63
       rect:
         serializedVersion: 2
-        x: 142
-        y: 4320
+        x: 426
+        y: 2160
         width: 142
         height: 270
       alignment: 0
@@ -1097,7 +1117,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 0
-        y: 4050
+        y: 1890
         width: 142
         height: 270
       alignment: 0
@@ -1111,7 +1131,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 142
-        y: 4050
+        y: 1890
         width: 142
         height: 270
       alignment: 0
@@ -1124,8 +1144,8 @@ TextureImporter:
       name: choose_char_green_66
       rect:
         serializedVersion: 2
-        x: 0
-        y: 3780
+        x: 284
+        y: 1890
         width: 142
         height: 270
       alignment: 0
@@ -1138,8 +1158,8 @@ TextureImporter:
       name: choose_char_green_67
       rect:
         serializedVersion: 2
-        x: 142
-        y: 3780
+        x: 426
+        y: 1890
         width: 142
         height: 270
       alignment: 0
@@ -1153,7 +1173,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 0
-        y: 3510
+        y: 1620
         width: 142
         height: 270
       alignment: 0
@@ -1167,7 +1187,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 142
-        y: 3510
+        y: 1620
         width: 142
         height: 270
       alignment: 0
@@ -1180,8 +1200,8 @@ TextureImporter:
       name: choose_char_green_70
       rect:
         serializedVersion: 2
-        x: 0
-        y: 3240
+        x: 284
+        y: 1620
         width: 142
         height: 270
       alignment: 0
@@ -1194,8 +1214,8 @@ TextureImporter:
       name: choose_char_green_71
       rect:
         serializedVersion: 2
-        x: 142
-        y: 3240
+        x: 426
+        y: 1620
         width: 142
         height: 270
       alignment: 0
@@ -1209,7 +1229,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 0
-        y: 2970
+        y: 1350
         width: 142
         height: 270
       alignment: 0
@@ -1223,7 +1243,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 142
-        y: 2970
+        y: 1350
         width: 142
         height: 270
       alignment: 0
@@ -1236,8 +1256,8 @@ TextureImporter:
       name: choose_char_green_74
       rect:
         serializedVersion: 2
-        x: 0
-        y: 2700
+        x: 284
+        y: 1350
         width: 142
         height: 270
       alignment: 0
@@ -1250,8 +1270,8 @@ TextureImporter:
       name: choose_char_green_75
       rect:
         serializedVersion: 2
-        x: 142
-        y: 2700
+        x: 426
+        y: 1350
         width: 142
         height: 270
       alignment: 0
@@ -1265,7 +1285,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 0
-        y: 2430
+        y: 1080
         width: 142
         height: 270
       alignment: 0
@@ -1279,7 +1299,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 142
-        y: 2430
+        y: 1080
         width: 142
         height: 270
       alignment: 0
@@ -1292,8 +1312,8 @@ TextureImporter:
       name: choose_char_green_78
       rect:
         serializedVersion: 2
-        x: 0
-        y: 2160
+        x: 284
+        y: 1080
         width: 142
         height: 270
       alignment: 0
@@ -1306,8 +1326,8 @@ TextureImporter:
       name: choose_char_green_79
       rect:
         serializedVersion: 2
-        x: 142
-        y: 2160
+        x: 426
+        y: 1080
         width: 142
         height: 270
       alignment: 0
@@ -1321,7 +1341,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 0
-        y: 1890
+        y: 810
         width: 142
         height: 270
       alignment: 0
@@ -1335,7 +1355,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 142
-        y: 1890
+        y: 810
         width: 142
         height: 270
       alignment: 0
@@ -1348,8 +1368,8 @@ TextureImporter:
       name: choose_char_green_82
       rect:
         serializedVersion: 2
-        x: 0
-        y: 1620
+        x: 284
+        y: 810
         width: 142
         height: 270
       alignment: 0
@@ -1362,8 +1382,8 @@ TextureImporter:
       name: choose_char_green_83
       rect:
         serializedVersion: 2
-        x: 142
-        y: 1620
+        x: 426
+        y: 810
         width: 142
         height: 270
       alignment: 0
@@ -1377,7 +1397,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 0
-        y: 1350
+        y: 540
         width: 142
         height: 270
       alignment: 0
@@ -1391,7 +1411,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 142
-        y: 1350
+        y: 540
         width: 142
         height: 270
       alignment: 0
@@ -1404,8 +1424,8 @@ TextureImporter:
       name: choose_char_green_86
       rect:
         serializedVersion: 2
-        x: 0
-        y: 1080
+        x: 284
+        y: 540
         width: 142
         height: 270
       alignment: 0
@@ -1418,8 +1438,8 @@ TextureImporter:
       name: choose_char_green_87
       rect:
         serializedVersion: 2
-        x: 142
-        y: 1080
+        x: 426
+        y: 540
         width: 142
         height: 270
       alignment: 0
@@ -1433,7 +1453,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 0
-        y: 810
+        y: 270
         width: 142
         height: 270
       alignment: 0
@@ -1447,7 +1467,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 142
-        y: 810
+        y: 270
         width: 142
         height: 270
       alignment: 0
@@ -1460,8 +1480,8 @@ TextureImporter:
       name: choose_char_green_90
       rect:
         serializedVersion: 2
-        x: 0
-        y: 540
+        x: 284
+        y: 270
         width: 142
         height: 270
       alignment: 0
@@ -1474,8 +1494,8 @@ TextureImporter:
       name: choose_char_green_91
       rect:
         serializedVersion: 2
-        x: 142
-        y: 540
+        x: 426
+        y: 270
         width: 142
         height: 270
       alignment: 0
@@ -1489,7 +1509,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 0
-        y: 270
+        y: 0
         width: 142
         height: 270
       alignment: 0
@@ -1503,7 +1523,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 142
-        y: 270
+        y: 0
         width: 142
         height: 270
       alignment: 0
@@ -1516,7 +1536,7 @@ TextureImporter:
       name: choose_char_green_94
       rect:
         serializedVersion: 2
-        x: 0
+        x: 284
         y: 0
         width: 142
         height: 270
@@ -1530,7 +1550,7 @@ TextureImporter:
       name: choose_char_green_95
       rect:
         serializedVersion: 2
-        x: 142
+        x: 426
         y: 0
         width: 142
         height: 270
