@@ -1,9 +1,19 @@
 fileFormatVersion: 2
+<<<<<<< HEAD
 guid: 401deb0ae82665444a4322194b86ad15
 TextureImporter:
   fileIDToRecycleName: {}
   externalObjects: {}
   serializedVersion: 5
+=======
+guid: f81daeb7e91cb6d47a50c46c67e91f56
+timeCreated: 1523704911
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName: {}
+  externalObjects: {}
+  serializedVersion: 4
+>>>>>>> e87d66d04e335db55abb33cb518c0d4cc84d0f98
   mipmaps:
     mipMapMode: 0
     enableMipMap: 0
@@ -29,7 +39,11 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
+<<<<<<< HEAD
     filterMode: 0
+=======
+    filterMode: -1
+>>>>>>> e87d66d04e335db55abb33cb518c0d4cc84d0f98
     aniso: -1
     mipBias: -1
     wrapU: 1
@@ -40,22 +54,35 @@ TextureImporter:
   compressionQuality: 50
   spriteMode: 1
   spriteExtrude: 1
+<<<<<<< HEAD
   spriteMeshType: 0
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
   spritePixelsToUnits: 25
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 0
+=======
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+>>>>>>> e87d66d04e335db55abb33cb518c0d4cc84d0f98
   alphaUsage: 1
   alphaIsTransparency: 1
   spriteTessellationDetail: -1
   textureType: 8
   textureShape: 1
+<<<<<<< HEAD
   singleChannelComponent: 0
+=======
+>>>>>>> e87d66d04e335db55abb33cb518c0d4cc84d0f98
   maxTextureSizeSet: 0
   compressionQualitySet: 0
   textureFormatSet: 0
   platformSettings:
+<<<<<<< HEAD
   - serializedVersion: 2
     buildTarget: DefaultTexturePlatform
     maxTextureSize: 4096
@@ -82,6 +109,11 @@ TextureImporter:
     buildTarget: Android
     maxTextureSize: 4096
     resizeAlgorithm: 1
+=======
+  - buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+>>>>>>> e87d66d04e335db55abb33cb518c0d4cc84d0f98
     textureFormat: -1
     textureCompression: 1
     compressionQuality: 50
@@ -94,12 +126,15 @@ TextureImporter:
     sprites: []
     outline: []
     physicsShape: []
+<<<<<<< HEAD
     bones: []
     spriteID: 26e74c5d41efa7240b45aed1f5ff7d5e
     vertices: []
     indices: 
     edges: []
     weights: []
+=======
+>>>>>>> e87d66d04e335db55abb33cb518c0d4cc84d0f98
   spritePackingTag: 
   userData: 
   assetBundleName: 
