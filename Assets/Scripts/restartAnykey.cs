@@ -17,15 +17,8 @@ public class restartAnykey : MonoBehaviour
         if (Input.anyKeyDown)
         {
             print("any key pressed");
-            //Application.LoadLevel("PlayerSelect");
-            Scene scene = SceneManager.GetActiveScene();
 
             SceneManager.LoadScene(gameMenuName);
-
-            if (scene != null)
-            {
-                SceneManager.UnloadSceneAsync(scene);
-            }
         }
     }
 }

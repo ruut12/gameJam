@@ -90,11 +90,7 @@ public class GameManager : MonoBehaviour
 
             if (winScreenName != null)
             {
-                Scene scene = SceneManager.GetActiveScene();
-
                 SceneManager.LoadScene(winScreenName);
-
-                SceneManager.UnloadSceneAsync(scene);
             }
         }
     }

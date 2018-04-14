@@ -30,35 +30,12 @@ public class GameState : MonoBehaviour
         p4ReadyPress = ap4ReadyPress;
 
         //Debug.Log("startGame");
-        Scene scene = SceneManager.GetActiveScene();
-
         SceneManager.LoadScene(gameSceneName);
-
-        SceneManager.UnloadSceneAsync(scene);
     }
 
     public void ResetGame()
     {
-        Scene scene = SceneManager.GetActiveScene();
-
         SceneManager.LoadScene(gameMenuName);
-
-        if (scene != null)
-        {
-            SceneManager.UnloadSceneAsync(scene);
-        }
-        /*
-        game = SceneManager.GetSceneByName(gameSceneName);
-        SceneManager.SetActiveScene(game);
-     
-        Debug.Log("player1" + p1ReadyPress);
-        Debug.Log("player2" + p2ReadyPress);
-        Debug.Log("player3" + p3ReadyPress);
-        Debug.Log("player4" + p4ReadyPress);
-        Debug.Log("Active Scene : " + SceneManager.GetActiveScene().name);        
-
-        SceneManager.UnloadSceneAsync(gameMenuName);
-        */
     }
 
     // Update is called once per frame
