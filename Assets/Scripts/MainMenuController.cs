@@ -1,9 +1,8 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
+﻿using UnityEngine;
 using UnityEngine.UI;
 
-public class MainMenuController : MonoBehaviour {
+public class MainMenuController : MonoBehaviour
+{
     public GameState gamePlay;
     public int players, readyPlayers;
     public Text mainInfo, player1Ready, player2Ready, player3Ready, player4Ready;
@@ -13,9 +12,10 @@ public class MainMenuController : MonoBehaviour {
     public int p3ReadyPress = 0;
     public int p4ReadyPress = 0;
     public GameObject p1Img, p2Img, p3Img, p4Img;
-    public string[,] chars = new string[4, 2] { { "char1", "-" }, { "char2", "-" } , { "char3", "-" } , { "char4", "-" }};
-	// Use this for initialization
-	void Start () {
+    public string[,] chars = new string[4, 2] { { "char1", "-" }, { "char2", "-" }, { "char3", "-" }, { "char4", "-" } };
+    // Use this for initialization
+    void Start()
+    {
         p1Img = GameObject.Find("Player1Img");
         p2Img = GameObject.Find("Player2Img");
         p3Img = GameObject.Find("Player3Img");
@@ -31,9 +31,10 @@ public class MainMenuController : MonoBehaviour {
     }
 
     // Update is called once per frame
-    void Update() {
+    void Update()
+    {
 
-        if (Input.GetButtonDown(joinButton1) && p1ReadyPress == 0)
+        if ((Input.GetButtonDown(readyButton1) || Input.GetButtonDown(joinButton1)) && p1ReadyPress == 0)
         {
             p1Img.SetActive(true);
             player1Ready.text = "Not ready, press x";
@@ -41,14 +42,15 @@ public class MainMenuController : MonoBehaviour {
             players++;
             FindObjectOfType<AudioManager>().Play("bell");
         }
-        if (Input.GetButtonDown(readyButton1) && p1ReadyPress == 1)
+        else if (Input.GetButtonDown(readyButton1) && p1ReadyPress == 1)
         {
             player1Ready.text = "Ready";
             p1ReadyPress = 2;
             readyPlayers++;
             FindObjectOfType<AudioManager>().Play("bell");
         }
-        if (Input.GetButtonDown(joinButton2) && p2ReadyPress == 0)
+
+        if ((Input.GetButtonDown(readyButton2) || Input.GetButtonDown(joinButton2)) && p2ReadyPress == 0)
         {
             p2Img.SetActive(true);
             player2Ready.text = "Not ready, press x";
@@ -56,14 +58,15 @@ public class MainMenuController : MonoBehaviour {
             players++;
             FindObjectOfType<AudioManager>().Play("bell");
         }
-        if (Input.GetButtonDown(readyButton2) && p2ReadyPress == 1)
+        else if (Input.GetButtonDown(readyButton2) && p2ReadyPress == 1)
         {
             player2Ready.text = "Ready";
             p2ReadyPress = 2;
             readyPlayers++;
             FindObjectOfType<AudioManager>().Play("bell");
         }
-        if (Input.GetButtonDown(joinButton3) && p3ReadyPress == 0)
+
+        if ((Input.GetButtonDown(readyButton3) || Input.GetButtonDown(joinButton3)) && p3ReadyPress == 0)
         {
             p3Img.SetActive(true);
             player3Ready.text = "Not ready, press x";
@@ -71,14 +74,15 @@ public class MainMenuController : MonoBehaviour {
             players++;
             FindObjectOfType<AudioManager>().Play("bell");
         }
-        if (Input.GetButtonDown(readyButton3) && p3ReadyPress == 1)
+        else if (Input.GetButtonDown(readyButton3) && p3ReadyPress == 1)
         {
             player3Ready.text = "Ready";
             p3ReadyPress = 2;
             readyPlayers++;
             FindObjectOfType<AudioManager>().Play("bell");
         }
-        if (Input.GetButtonDown(joinButton4) && p4ReadyPress == 0)
+
+        if ((Input.GetButtonDown(readyButton4) || Input.GetButtonDown(joinButton4)) && p4ReadyPress == 0)
         {
             p4Img.SetActive(true);
             player4Ready.text = "Not ready, press x";
@@ -86,7 +90,7 @@ public class MainMenuController : MonoBehaviour {
             players++;
             FindObjectOfType<AudioManager>().Play("bell");
         }
-        if (Input.GetButtonDown(readyButton4) && p4ReadyPress == 1)
+        else if (Input.GetButtonDown(readyButton4) && p4ReadyPress == 1)
         {
             player4Ready.text = "Ready";
             p4ReadyPress = 2;
@@ -94,7 +98,8 @@ public class MainMenuController : MonoBehaviour {
             FindObjectOfType<AudioManager>().Play("bell");
         }
 
-        if (players == readyPlayers && readyPlayers > 1) {
+        if (players == readyPlayers && readyPlayers > 1)
+        {
             gamePlay.startGame(p1ReadyPress, p2ReadyPress, p3ReadyPress, p4ReadyPress);
         }
     }
