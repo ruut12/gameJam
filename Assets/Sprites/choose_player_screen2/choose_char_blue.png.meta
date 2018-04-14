@@ -1,9 +1,105 @@
 fileFormatVersion: 2
 guid: e28c57d15f936dc4b9336fecb1d53862
 TextureImporter:
-  fileIDToRecycleName: {}
+  fileIDToRecycleName:
+    21300000: choose_char_blue_0
+    21300002: choose_char_blue_1
+    21300004: choose_char_blue_2
+    21300006: choose_char_blue_3
+    21300008: choose_char_blue_4
+    21300010: choose_char_blue_5
+    21300012: choose_char_blue_6
+    21300014: choose_char_blue_7
+    21300016: choose_char_blue_8
+    21300018: choose_char_blue_9
+    21300020: choose_char_blue_10
+    21300022: choose_char_blue_11
+    21300024: choose_char_blue_12
+    21300026: choose_char_blue_13
+    21300028: choose_char_blue_14
+    21300030: choose_char_blue_15
+    21300032: choose_char_blue_16
+    21300034: choose_char_blue_17
+    21300036: choose_char_blue_18
+    21300038: choose_char_blue_19
+    21300040: choose_char_blue_20
+    21300042: choose_char_blue_21
+    21300044: choose_char_blue_22
+    21300046: choose_char_blue_23
+    21300048: choose_char_blue_24
+    21300050: choose_char_blue_25
+    21300052: choose_char_blue_26
+    21300054: choose_char_blue_27
+    21300056: choose_char_blue_28
+    21300058: choose_char_blue_29
+    21300060: choose_char_blue_30
+    21300062: choose_char_blue_31
+    21300064: choose_char_blue_32
+    21300066: choose_char_blue_33
+    21300068: choose_char_blue_34
+    21300070: choose_char_blue_35
+    21300072: choose_char_blue_36
+    21300074: choose_char_blue_37
+    21300076: choose_char_blue_38
+    21300078: choose_char_blue_39
+    21300080: choose_char_blue_40
+    21300082: choose_char_blue_41
+    21300084: choose_char_blue_42
+    21300086: choose_char_blue_43
+    21300088: choose_char_blue_44
+    21300090: choose_char_blue_45
+    21300092: choose_char_blue_46
+    21300094: choose_char_blue_47
+    21300096: choose_char_blue_48
+    21300098: choose_char_blue_49
+    21300100: choose_char_blue_50
+    21300102: choose_char_blue_51
+    21300104: choose_char_blue_52
+    21300106: choose_char_blue_53
+    21300108: choose_char_blue_54
+    21300110: choose_char_blue_55
+    21300112: choose_char_blue_56
+    21300114: choose_char_blue_57
+    21300116: choose_char_blue_58
+    21300118: choose_char_blue_59
+    21300120: choose_char_blue_60
+    21300122: choose_char_blue_61
+    21300124: choose_char_blue_62
+    21300126: choose_char_blue_63
+    21300128: choose_char_blue_64
+    21300130: choose_char_blue_65
+    21300132: choose_char_blue_66
+    21300134: choose_char_blue_67
+    21300136: choose_char_blue_68
+    21300138: choose_char_blue_69
+    21300140: choose_char_blue_70
+    21300142: choose_char_blue_71
+    21300144: choose_char_blue_72
+    21300146: choose_char_blue_73
+    21300148: choose_char_blue_74
+    21300150: choose_char_blue_75
+    21300152: choose_char_blue_76
+    21300154: choose_char_blue_77
+    21300156: choose_char_blue_78
+    21300158: choose_char_blue_79
+    21300160: choose_char_blue_80
+    21300162: choose_char_blue_81
+    21300164: choose_char_blue_82
+    21300166: choose_char_blue_83
+    21300168: choose_char_blue_84
+    21300170: choose_char_blue_85
+    21300172: choose_char_blue_86
+    21300174: choose_char_blue_87
+    21300176: choose_char_blue_88
+    21300178: choose_char_blue_89
+    21300180: choose_char_blue_90
+    21300182: choose_char_blue_91
+    21300184: choose_char_blue_92
+    21300186: choose_char_blue_93
+    21300188: choose_char_blue_94
+    21300190: choose_char_blue_95
   externalObjects: {}
-  serializedVersion: 5
+  serializedVersion: 4
   mipmaps:
     mipMapMode: 0
     enableMipMap: 0
@@ -51,13 +147,11 @@ TextureImporter:
   spriteTessellationDetail: -1
   textureType: 8
   textureShape: 1
-  singleChannelComponent: 0
   maxTextureSizeSet: 0
   compressionQualitySet: 0
   textureFormatSet: 0
   platformSettings:
-  - serializedVersion: 2
-    buildTarget: DefaultTexturePlatform
+  - buildTarget: DefaultTexturePlatform
     maxTextureSize: 4096
     resizeAlgorithm: 1
     textureFormat: -1
@@ -67,8 +161,7 @@ TextureImporter:
     allowsAlphaSplitting: 0
     overridden: 0
     androidETC2FallbackOverride: 0
-  - serializedVersion: 2
-    buildTarget: Standalone
+  - buildTarget: Standalone
     maxTextureSize: 4096
     resizeAlgorithm: 1
     textureFormat: -1
@@ -78,8 +171,7 @@ TextureImporter:
     allowsAlphaSplitting: 0
     overridden: 0
     androidETC2FallbackOverride: 0
-  - serializedVersion: 2
-    buildTarget: Android
+  - buildTarget: Android
     maxTextureSize: 4096
     resizeAlgorithm: 1
     textureFormat: -1
@@ -91,15 +183,1353 @@ TextureImporter:
     androidETC2FallbackOverride: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: choose_char_blue_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 12690
+        width: 153
+        height: 270
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: choose_char_blue_1
+      rect:
+        serializedVersion: 2
+        x: 153
+        y: 12690
+        width: 153
+        height: 270
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: choose_char_blue_2
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 12420
+        width: 153
+        height: 270
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: choose_char_blue_3
+      rect:
+        serializedVersion: 2
+        x: 153
+        y: 12420
+        width: 153
+        height: 270
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: choose_char_blue_4
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 12150
+        width: 153
+        height: 270
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: choose_char_blue_5
+      rect:
+        serializedVersion: 2
+        x: 153
+        y: 12150
+        width: 153
+        height: 270
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: choose_char_blue_6
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 11880
+        width: 153
+        height: 270
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: choose_char_blue_7
+      rect:
+        serializedVersion: 2
+        x: 153
+        y: 11880
+        width: 153
+        height: 270
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: choose_char_blue_8
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 11610
+        width: 153
+        height: 270
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: choose_char_blue_9
+      rect:
+        serializedVersion: 2
+        x: 153
+        y: 11610
+        width: 153
+        height: 270
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: choose_char_blue_10
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 11340
+        width: 153
+        height: 270
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: choose_char_blue_11
+      rect:
+        serializedVersion: 2
+        x: 153
+        y: 11340
+        width: 153
+        height: 270
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: choose_char_blue_12
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 11070
+        width: 153
+        height: 270
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: choose_char_blue_13
+      rect:
+        serializedVersion: 2
+        x: 153
+        y: 11070
+        width: 153
+        height: 270
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: choose_char_blue_14
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 10800
+        width: 153
+        height: 270
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: choose_char_blue_15
+      rect:
+        serializedVersion: 2
+        x: 153
+        y: 10800
+        width: 153
+        height: 270
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: choose_char_blue_16
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 10530
+        width: 153
+        height: 270
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: choose_char_blue_17
+      rect:
+        serializedVersion: 2
+        x: 153
+        y: 10530
+        width: 153
+        height: 270
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: choose_char_blue_18
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 10260
+        width: 153
+        height: 270
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: choose_char_blue_19
+      rect:
+        serializedVersion: 2
+        x: 153
+        y: 10260
+        width: 153
+        height: 270
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: choose_char_blue_20
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 9990
+        width: 153
+        height: 270
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: choose_char_blue_21
+      rect:
+        serializedVersion: 2
+        x: 153
+        y: 9990
+        width: 153
+        height: 270
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: choose_char_blue_22
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 9720
+        width: 153
+        height: 270
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: choose_char_blue_23
+      rect:
+        serializedVersion: 2
+        x: 153
+        y: 9720
+        width: 153
+        height: 270
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: choose_char_blue_24
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 9450
+        width: 153
+        height: 270
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: choose_char_blue_25
+      rect:
+        serializedVersion: 2
+        x: 153
+        y: 9450
+        width: 153
+        height: 270
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: choose_char_blue_26
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 9180
+        width: 153
+        height: 270
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: choose_char_blue_27
+      rect:
+        serializedVersion: 2
+        x: 153
+        y: 9180
+        width: 153
+        height: 270
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: choose_char_blue_28
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 8910
+        width: 153
+        height: 270
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: choose_char_blue_29
+      rect:
+        serializedVersion: 2
+        x: 153
+        y: 8910
+        width: 153
+        height: 270
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: choose_char_blue_30
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 8640
+        width: 153
+        height: 270
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: choose_char_blue_31
+      rect:
+        serializedVersion: 2
+        x: 153
+        y: 8640
+        width: 153
+        height: 270
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: choose_char_blue_32
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 8370
+        width: 153
+        height: 270
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: choose_char_blue_33
+      rect:
+        serializedVersion: 2
+        x: 153
+        y: 8370
+        width: 153
+        height: 270
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: choose_char_blue_34
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 8100
+        width: 153
+        height: 270
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: choose_char_blue_35
+      rect:
+        serializedVersion: 2
+        x: 153
+        y: 8100
+        width: 153
+        height: 270
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: choose_char_blue_36
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 7830
+        width: 153
+        height: 270
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: choose_char_blue_37
+      rect:
+        serializedVersion: 2
+        x: 153
+        y: 7830
+        width: 153
+        height: 270
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: choose_char_blue_38
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 7560
+        width: 153
+        height: 270
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: choose_char_blue_39
+      rect:
+        serializedVersion: 2
+        x: 153
+        y: 7560
+        width: 153
+        height: 270
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: choose_char_blue_40
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 7290
+        width: 153
+        height: 270
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: choose_char_blue_41
+      rect:
+        serializedVersion: 2
+        x: 153
+        y: 7290
+        width: 153
+        height: 270
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: choose_char_blue_42
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 7020
+        width: 153
+        height: 270
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: choose_char_blue_43
+      rect:
+        serializedVersion: 2
+        x: 153
+        y: 7020
+        width: 153
+        height: 270
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: choose_char_blue_44
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 6750
+        width: 153
+        height: 270
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: choose_char_blue_45
+      rect:
+        serializedVersion: 2
+        x: 153
+        y: 6750
+        width: 153
+        height: 270
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: choose_char_blue_46
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 6480
+        width: 153
+        height: 270
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: choose_char_blue_47
+      rect:
+        serializedVersion: 2
+        x: 153
+        y: 6480
+        width: 153
+        height: 270
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: choose_char_blue_48
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 6210
+        width: 153
+        height: 270
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: choose_char_blue_49
+      rect:
+        serializedVersion: 2
+        x: 153
+        y: 6210
+        width: 153
+        height: 270
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: choose_char_blue_50
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 5940
+        width: 153
+        height: 270
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: choose_char_blue_51
+      rect:
+        serializedVersion: 2
+        x: 153
+        y: 5940
+        width: 153
+        height: 270
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: choose_char_blue_52
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 5670
+        width: 153
+        height: 270
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: choose_char_blue_53
+      rect:
+        serializedVersion: 2
+        x: 153
+        y: 5670
+        width: 153
+        height: 270
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: choose_char_blue_54
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 5400
+        width: 153
+        height: 270
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: choose_char_blue_55
+      rect:
+        serializedVersion: 2
+        x: 153
+        y: 5400
+        width: 153
+        height: 270
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: choose_char_blue_56
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 5130
+        width: 153
+        height: 270
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: choose_char_blue_57
+      rect:
+        serializedVersion: 2
+        x: 153
+        y: 5130
+        width: 153
+        height: 270
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: choose_char_blue_58
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 4860
+        width: 153
+        height: 270
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: choose_char_blue_59
+      rect:
+        serializedVersion: 2
+        x: 153
+        y: 4860
+        width: 153
+        height: 270
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: choose_char_blue_60
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 4590
+        width: 153
+        height: 270
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: choose_char_blue_61
+      rect:
+        serializedVersion: 2
+        x: 153
+        y: 4590
+        width: 153
+        height: 270
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: choose_char_blue_62
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 4320
+        width: 153
+        height: 270
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: choose_char_blue_63
+      rect:
+        serializedVersion: 2
+        x: 153
+        y: 4320
+        width: 153
+        height: 270
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: choose_char_blue_64
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 4050
+        width: 153
+        height: 270
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: choose_char_blue_65
+      rect:
+        serializedVersion: 2
+        x: 153
+        y: 4050
+        width: 153
+        height: 270
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: choose_char_blue_66
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3780
+        width: 153
+        height: 270
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: choose_char_blue_67
+      rect:
+        serializedVersion: 2
+        x: 153
+        y: 3780
+        width: 153
+        height: 270
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: choose_char_blue_68
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3510
+        width: 153
+        height: 270
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: choose_char_blue_69
+      rect:
+        serializedVersion: 2
+        x: 153
+        y: 3510
+        width: 153
+        height: 270
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: choose_char_blue_70
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3240
+        width: 153
+        height: 270
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: choose_char_blue_71
+      rect:
+        serializedVersion: 2
+        x: 153
+        y: 3240
+        width: 153
+        height: 270
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: choose_char_blue_72
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2970
+        width: 153
+        height: 270
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: choose_char_blue_73
+      rect:
+        serializedVersion: 2
+        x: 153
+        y: 2970
+        width: 153
+        height: 270
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: choose_char_blue_74
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2700
+        width: 153
+        height: 270
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: choose_char_blue_75
+      rect:
+        serializedVersion: 2
+        x: 153
+        y: 2700
+        width: 153
+        height: 270
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: choose_char_blue_76
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2430
+        width: 153
+        height: 270
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: choose_char_blue_77
+      rect:
+        serializedVersion: 2
+        x: 153
+        y: 2430
+        width: 153
+        height: 270
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: choose_char_blue_78
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2160
+        width: 153
+        height: 270
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: choose_char_blue_79
+      rect:
+        serializedVersion: 2
+        x: 153
+        y: 2160
+        width: 153
+        height: 270
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: choose_char_blue_80
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1890
+        width: 153
+        height: 270
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: choose_char_blue_81
+      rect:
+        serializedVersion: 2
+        x: 153
+        y: 1890
+        width: 153
+        height: 270
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: choose_char_blue_82
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1620
+        width: 153
+        height: 270
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: choose_char_blue_83
+      rect:
+        serializedVersion: 2
+        x: 153
+        y: 1620
+        width: 153
+        height: 270
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: choose_char_blue_84
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1350
+        width: 153
+        height: 270
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: choose_char_blue_85
+      rect:
+        serializedVersion: 2
+        x: 153
+        y: 1350
+        width: 153
+        height: 270
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: choose_char_blue_86
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1080
+        width: 153
+        height: 270
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: choose_char_blue_87
+      rect:
+        serializedVersion: 2
+        x: 153
+        y: 1080
+        width: 153
+        height: 270
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: choose_char_blue_88
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 810
+        width: 153
+        height: 270
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: choose_char_blue_89
+      rect:
+        serializedVersion: 2
+        x: 153
+        y: 810
+        width: 153
+        height: 270
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: choose_char_blue_90
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 540
+        width: 153
+        height: 270
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: choose_char_blue_91
+      rect:
+        serializedVersion: 2
+        x: 153
+        y: 540
+        width: 153
+        height: 270
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: choose_char_blue_92
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 270
+        width: 153
+        height: 270
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: choose_char_blue_93
+      rect:
+        serializedVersion: 2
+        x: 153
+        y: 270
+        width: 153
+        height: 270
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: choose_char_blue_94
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 153
+        height: 270
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: choose_char_blue_95
+      rect:
+        serializedVersion: 2
+        x: 153
+        y: 0
+        width: 153
+        height: 270
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
     outline: []
     physicsShape: []
-    bones: []
-    spriteID: 6ee0d886fcabc184aacb313538113de5
-    vertices: []
-    indices: 
-    edges: []
-    weights: []
   spritePackingTag: 
   userData: 
   assetBundleName: 

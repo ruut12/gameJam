@@ -3,7 +3,33 @@ guid: 4d172fb99c6b65d4282829feb26a7f79
 timeCreated: 1523702156
 licenseType: Free
 TextureImporter:
-  fileIDToRecycleName: {}
+  fileIDToRecycleName:
+    21300000: green_dude_shockwave_0
+    21300002: green_dude_shockwave_1
+    21300004: green_dude_shockwave_2
+    21300006: green_dude_shockwave_3
+    21300008: green_dude_shockwave_4
+    21300010: green_dude_shockwave_5
+    21300012: green_dude_shockwave_6
+    21300014: green_dude_shockwave_7
+    21300016: green_dude_shockwave_8
+    21300018: green_dude_shockwave_9
+    21300020: green_dude_shockwave_10
+    21300022: green_dude_shockwave_11
+    21300024: green_dude_shockwave_12
+    21300026: green_dude_shockwave_13
+    21300028: green_dude_shockwave_14
+    21300030: green_dude_shockwave_15
+    21300032: green_dude_shockwave_16
+    21300034: green_dude_shockwave_17
+    21300036: green_dude_shockwave_18
+    21300038: green_dude_shockwave_19
+    21300040: green_dude_shockwave_20
+    21300042: green_dude_shockwave_21
+    21300044: green_dude_shockwave_22
+    21300046: green_dude_shockwave_23
+    21300048: green_dude_shockwave_24
+    21300050: green_dude_shockwave_25
   externalObjects: {}
   serializedVersion: 4
   mipmaps:
@@ -31,7 +57,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: -1
+    filterMode: 0
     aniso: -1
     mipBias: -1
     wrapU: 1
@@ -40,7 +66,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -67,9 +93,403 @@ TextureImporter:
     allowsAlphaSplitting: 0
     overridden: 0
     androidETC2FallbackOverride: 0
+  - buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - buildTarget: iPhone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: green_dude_shockwave_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1742
+        width: 480
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: green_dude_shockwave_1
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1675
+        width: 480
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: green_dude_shockwave_2
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1608
+        width: 480
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: green_dude_shockwave_3
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1541
+        width: 480
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: green_dude_shockwave_4
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1474
+        width: 480
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: green_dude_shockwave_5
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1407
+        width: 480
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: green_dude_shockwave_6
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1340
+        width: 480
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: green_dude_shockwave_7
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1273
+        width: 480
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: green_dude_shockwave_8
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1206
+        width: 480
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: green_dude_shockwave_9
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1139
+        width: 480
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: green_dude_shockwave_10
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1072
+        width: 480
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: green_dude_shockwave_11
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1005
+        width: 480
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: green_dude_shockwave_12
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 938
+        width: 480
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: green_dude_shockwave_13
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 871
+        width: 480
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: green_dude_shockwave_14
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 804
+        width: 480
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: green_dude_shockwave_15
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 737
+        width: 480
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: green_dude_shockwave_16
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 670
+        width: 480
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: green_dude_shockwave_17
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 603
+        width: 480
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: green_dude_shockwave_18
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 536
+        width: 480
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: green_dude_shockwave_19
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 469
+        width: 480
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: green_dude_shockwave_20
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 402
+        width: 480
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: green_dude_shockwave_21
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 335
+        width: 480
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: green_dude_shockwave_22
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 268
+        width: 480
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: green_dude_shockwave_23
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 201
+        width: 480
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: green_dude_shockwave_24
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 134
+        width: 480
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: green_dude_shockwave_25
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 67
+        width: 480
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
     outline: []
     physicsShape: []
   spritePackingTag: 

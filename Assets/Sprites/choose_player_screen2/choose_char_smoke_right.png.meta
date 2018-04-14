@@ -3,7 +3,57 @@ guid: 8623dc19fe3fdad4aa60d269b4a3cae1
 timeCreated: 1523702156
 licenseType: Free
 TextureImporter:
-  fileIDToRecycleName: {}
+  fileIDToRecycleName:
+    21300000: choose_char_smoke_right_0
+    21300002: choose_char_smoke_right_1
+    21300004: choose_char_smoke_right_2
+    21300006: choose_char_smoke_right_3
+    21300008: choose_char_smoke_right_4
+    21300010: choose_char_smoke_right_5
+    21300012: choose_char_smoke_right_6
+    21300014: choose_char_smoke_right_7
+    21300016: choose_char_smoke_right_8
+    21300018: choose_char_smoke_right_9
+    21300020: choose_char_smoke_right_10
+    21300022: choose_char_smoke_right_11
+    21300024: choose_char_smoke_right_12
+    21300026: choose_char_smoke_right_13
+    21300028: choose_char_smoke_right_14
+    21300030: choose_char_smoke_right_15
+    21300032: choose_char_smoke_right_16
+    21300034: choose_char_smoke_right_17
+    21300036: choose_char_smoke_right_18
+    21300038: choose_char_smoke_right_19
+    21300040: choose_char_smoke_right_20
+    21300042: choose_char_smoke_right_21
+    21300044: choose_char_smoke_right_22
+    21300046: choose_char_smoke_right_23
+    21300048: choose_char_smoke_right_24
+    21300050: choose_char_smoke_right_25
+    21300052: choose_char_smoke_right_26
+    21300054: choose_char_smoke_right_27
+    21300056: choose_char_smoke_right_28
+    21300058: choose_char_smoke_right_29
+    21300060: choose_char_smoke_right_30
+    21300062: choose_char_smoke_right_31
+    21300064: choose_char_smoke_right_32
+    21300066: choose_char_smoke_right_33
+    21300068: choose_char_smoke_right_34
+    21300070: choose_char_smoke_right_35
+    21300072: choose_char_smoke_right_36
+    21300074: choose_char_smoke_right_37
+    21300076: choose_char_smoke_right_38
+    21300078: choose_char_smoke_right_39
+    21300080: choose_char_smoke_right_40
+    21300082: choose_char_smoke_right_41
+    21300084: choose_char_smoke_right_42
+    21300086: choose_char_smoke_right_43
+    21300088: choose_char_smoke_right_44
+    21300090: choose_char_smoke_right_45
+    21300092: choose_char_smoke_right_46
+    21300094: choose_char_smoke_right_47
+    21300096: choose_char_smoke_right_48
+    21300098: choose_char_smoke_right_49
   externalObjects: {}
   serializedVersion: 4
   mipmaps:
@@ -31,7 +81,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: -1
+    filterMode: 0
     aniso: -1
     mipBias: -1
     wrapU: 1
@@ -40,7 +90,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -67,9 +117,739 @@ TextureImporter:
     allowsAlphaSplitting: 0
     overridden: 0
     androidETC2FallbackOverride: 0
+  - buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - buildTarget: iPhone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: choose_char_smoke_right_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 720
+        width: 51
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: choose_char_smoke_right_1
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 720
+        width: 51
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: choose_char_smoke_right_2
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 720
+        width: 51
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: choose_char_smoke_right_3
+      rect:
+        serializedVersion: 2
+        x: 153
+        y: 720
+        width: 51
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: choose_char_smoke_right_4
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 720
+        width: 51
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: choose_char_smoke_right_5
+      rect:
+        serializedVersion: 2
+        x: 255
+        y: 720
+        width: 51
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: choose_char_smoke_right_6
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 630
+        width: 51
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: choose_char_smoke_right_7
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 630
+        width: 51
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: choose_char_smoke_right_8
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 630
+        width: 51
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: choose_char_smoke_right_9
+      rect:
+        serializedVersion: 2
+        x: 153
+        y: 630
+        width: 51
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: choose_char_smoke_right_10
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 630
+        width: 51
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: choose_char_smoke_right_11
+      rect:
+        serializedVersion: 2
+        x: 255
+        y: 630
+        width: 51
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: choose_char_smoke_right_12
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 540
+        width: 51
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: choose_char_smoke_right_13
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 540
+        width: 51
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: choose_char_smoke_right_14
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 540
+        width: 51
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: choose_char_smoke_right_15
+      rect:
+        serializedVersion: 2
+        x: 153
+        y: 540
+        width: 51
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: choose_char_smoke_right_16
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 540
+        width: 51
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: choose_char_smoke_right_17
+      rect:
+        serializedVersion: 2
+        x: 255
+        y: 540
+        width: 51
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: choose_char_smoke_right_18
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 450
+        width: 51
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: choose_char_smoke_right_19
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 450
+        width: 51
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: choose_char_smoke_right_20
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 450
+        width: 51
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: choose_char_smoke_right_21
+      rect:
+        serializedVersion: 2
+        x: 153
+        y: 450
+        width: 51
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: choose_char_smoke_right_22
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 450
+        width: 51
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: choose_char_smoke_right_23
+      rect:
+        serializedVersion: 2
+        x: 255
+        y: 450
+        width: 51
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: choose_char_smoke_right_24
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 360
+        width: 51
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: choose_char_smoke_right_25
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 360
+        width: 51
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: choose_char_smoke_right_26
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 360
+        width: 51
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: choose_char_smoke_right_27
+      rect:
+        serializedVersion: 2
+        x: 153
+        y: 360
+        width: 51
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: choose_char_smoke_right_28
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 360
+        width: 51
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: choose_char_smoke_right_29
+      rect:
+        serializedVersion: 2
+        x: 255
+        y: 360
+        width: 51
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: choose_char_smoke_right_30
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 270
+        width: 51
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: choose_char_smoke_right_31
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 270
+        width: 51
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: choose_char_smoke_right_32
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 270
+        width: 51
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: choose_char_smoke_right_33
+      rect:
+        serializedVersion: 2
+        x: 153
+        y: 270
+        width: 51
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: choose_char_smoke_right_34
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 270
+        width: 51
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: choose_char_smoke_right_35
+      rect:
+        serializedVersion: 2
+        x: 255
+        y: 270
+        width: 51
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: choose_char_smoke_right_36
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 180
+        width: 51
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: choose_char_smoke_right_37
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 180
+        width: 51
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: choose_char_smoke_right_38
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 180
+        width: 51
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: choose_char_smoke_right_39
+      rect:
+        serializedVersion: 2
+        x: 153
+        y: 180
+        width: 51
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: choose_char_smoke_right_40
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 180
+        width: 51
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: choose_char_smoke_right_41
+      rect:
+        serializedVersion: 2
+        x: 255
+        y: 180
+        width: 51
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: choose_char_smoke_right_42
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 90
+        width: 51
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: choose_char_smoke_right_43
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 90
+        width: 51
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: choose_char_smoke_right_44
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 90
+        width: 51
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: choose_char_smoke_right_45
+      rect:
+        serializedVersion: 2
+        x: 153
+        y: 90
+        width: 51
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: choose_char_smoke_right_46
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 90
+        width: 51
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: choose_char_smoke_right_47
+      rect:
+        serializedVersion: 2
+        x: 255
+        y: 90
+        width: 51
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: choose_char_smoke_right_48
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 51
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: choose_char_smoke_right_49
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 0
+        width: 51
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
     outline: []
     physicsShape: []
   spritePackingTag: 

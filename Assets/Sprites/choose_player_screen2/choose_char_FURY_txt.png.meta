@@ -3,7 +3,52 @@ guid: 56a0c5a4da4589648a93111be4604c3d
 timeCreated: 1523702156
 licenseType: Free
 TextureImporter:
-  fileIDToRecycleName: {}
+  fileIDToRecycleName:
+    21300000: choose_char_FURY_txt_0
+    21300002: choose_char_FURY_txt_1
+    21300004: choose_char_FURY_txt_2
+    21300006: choose_char_FURY_txt_3
+    21300008: choose_char_FURY_txt_4
+    21300010: choose_char_FURY_txt_5
+    21300012: choose_char_FURY_txt_6
+    21300014: choose_char_FURY_txt_7
+    21300016: choose_char_FURY_txt_8
+    21300018: choose_char_FURY_txt_9
+    21300020: choose_char_FURY_txt_10
+    21300022: choose_char_FURY_txt_11
+    21300024: choose_char_FURY_txt_12
+    21300026: choose_char_FURY_txt_13
+    21300028: choose_char_FURY_txt_14
+    21300030: choose_char_FURY_txt_15
+    21300032: choose_char_FURY_txt_16
+    21300034: choose_char_FURY_txt_17
+    21300036: choose_char_FURY_txt_18
+    21300038: choose_char_FURY_txt_19
+    21300040: choose_char_FURY_txt_20
+    21300042: choose_char_FURY_txt_21
+    21300044: choose_char_FURY_txt_22
+    21300046: choose_char_FURY_txt_23
+    21300048: choose_char_FURY_txt_24
+    21300050: choose_char_FURY_txt_25
+    21300052: choose_char_FURY_txt_26
+    21300054: choose_char_FURY_txt_27
+    21300056: choose_char_FURY_txt_28
+    21300058: choose_char_FURY_txt_29
+    21300060: choose_char_FURY_txt_30
+    21300062: choose_char_FURY_txt_31
+    21300064: choose_char_FURY_txt_32
+    21300066: choose_char_FURY_txt_33
+    21300068: choose_char_FURY_txt_34
+    21300070: choose_char_FURY_txt_35
+    21300072: choose_char_FURY_txt_36
+    21300074: choose_char_FURY_txt_37
+    21300076: choose_char_FURY_txt_38
+    21300078: choose_char_FURY_txt_39
+    21300080: choose_char_FURY_txt_40
+    21300082: choose_char_FURY_txt_41
+    21300084: choose_char_FURY_txt_42
+    21300086: choose_char_FURY_txt_43
+    21300088: choose_char_FURY_txt_44
   externalObjects: {}
   serializedVersion: 4
   mipmaps:
@@ -31,7 +76,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: -1
+    filterMode: 0
     aniso: -1
     mipBias: -1
     wrapU: 1
@@ -40,7 +85,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -67,9 +112,669 @@ TextureImporter:
     allowsAlphaSplitting: 0
     overridden: 0
     androidETC2FallbackOverride: 0
+  - buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - buildTarget: iPhone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: choose_char_FURY_txt_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3740
+        width: 265
+        height: 85
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: choose_char_FURY_txt_1
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3655
+        width: 265
+        height: 85
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: choose_char_FURY_txt_2
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3570
+        width: 265
+        height: 85
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: choose_char_FURY_txt_3
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3485
+        width: 265
+        height: 85
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: choose_char_FURY_txt_4
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3400
+        width: 265
+        height: 85
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: choose_char_FURY_txt_5
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3315
+        width: 265
+        height: 85
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: choose_char_FURY_txt_6
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3230
+        width: 265
+        height: 85
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: choose_char_FURY_txt_7
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3145
+        width: 265
+        height: 85
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: choose_char_FURY_txt_8
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3060
+        width: 265
+        height: 85
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: choose_char_FURY_txt_9
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2975
+        width: 265
+        height: 85
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: choose_char_FURY_txt_10
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2890
+        width: 265
+        height: 85
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: choose_char_FURY_txt_11
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2805
+        width: 265
+        height: 85
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: choose_char_FURY_txt_12
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2720
+        width: 265
+        height: 85
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: choose_char_FURY_txt_13
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2635
+        width: 265
+        height: 85
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: choose_char_FURY_txt_14
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2550
+        width: 265
+        height: 85
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: choose_char_FURY_txt_15
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2465
+        width: 265
+        height: 85
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: choose_char_FURY_txt_16
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2380
+        width: 265
+        height: 85
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: choose_char_FURY_txt_17
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2295
+        width: 265
+        height: 85
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: choose_char_FURY_txt_18
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2210
+        width: 265
+        height: 85
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: choose_char_FURY_txt_19
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2125
+        width: 265
+        height: 85
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: choose_char_FURY_txt_20
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2040
+        width: 265
+        height: 85
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: choose_char_FURY_txt_21
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1955
+        width: 265
+        height: 85
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: choose_char_FURY_txt_22
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1870
+        width: 265
+        height: 85
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: choose_char_FURY_txt_23
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1785
+        width: 265
+        height: 85
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: choose_char_FURY_txt_24
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1700
+        width: 265
+        height: 85
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: choose_char_FURY_txt_25
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1615
+        width: 265
+        height: 85
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: choose_char_FURY_txt_26
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1530
+        width: 265
+        height: 85
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: choose_char_FURY_txt_27
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1445
+        width: 265
+        height: 85
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: choose_char_FURY_txt_28
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1360
+        width: 265
+        height: 85
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: choose_char_FURY_txt_29
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1275
+        width: 265
+        height: 85
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: choose_char_FURY_txt_30
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1190
+        width: 265
+        height: 85
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: choose_char_FURY_txt_31
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1105
+        width: 265
+        height: 85
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: choose_char_FURY_txt_32
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1020
+        width: 265
+        height: 85
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: choose_char_FURY_txt_33
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 935
+        width: 265
+        height: 85
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: choose_char_FURY_txt_34
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 850
+        width: 265
+        height: 85
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: choose_char_FURY_txt_35
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 765
+        width: 265
+        height: 85
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: choose_char_FURY_txt_36
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 680
+        width: 265
+        height: 85
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: choose_char_FURY_txt_37
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 595
+        width: 265
+        height: 85
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: choose_char_FURY_txt_38
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 510
+        width: 265
+        height: 85
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: choose_char_FURY_txt_39
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 425
+        width: 265
+        height: 85
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: choose_char_FURY_txt_40
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 340
+        width: 265
+        height: 85
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: choose_char_FURY_txt_41
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 255
+        width: 265
+        height: 85
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: choose_char_FURY_txt_42
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 170
+        width: 265
+        height: 85
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: choose_char_FURY_txt_43
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 85
+        width: 265
+        height: 85
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: choose_char_FURY_txt_44
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 265
+        height: 85
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
     outline: []
     physicsShape: []
   spritePackingTag: 
