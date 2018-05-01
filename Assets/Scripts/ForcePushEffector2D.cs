@@ -5,46 +5,43 @@ public class ForcePushEffector2D : MonoBehaviour
 {
     public string fireButtonName;
     public GameObject pushAnimation;
-
-    bool canPush = true;
-
+    
+    public float pushingAnimTime = 0.6f;
     float pushingAnimTimer = 0;
-    float pushingAnimCd = 0.6f;
 
     public float pushCooldownTime = 0.6f;
-
     float pushCooldownTimer = 0;
+
+
+    public float effectorTime = 0.1f;
+    float effectorTimer = 0;
+
 
     private PointEffector2D effector;
 
     void Start()
     {
         effector = GetComponent<PointEffector2D>();
-        effector.enabled = !effector.enabled;
+        effector.enabled = false;
     }
 
     void FixedUpdate()
     {
         var nowTicks = System.DateTime.Now.Ticks;
-
-        if (pushCooldownTimer == 0)
-        {
-            canPush = true;
-        }
-
+        
         if (Input.GetButtonDown(fireButtonName))
         {
-            if (canPush && gameObject.GetComponent<PlayerScore>().GetLives() > 0)
+            if (pushCooldownTimer == 0 && gameObject.GetComponent<PlayerScore>().GetLives() > 0)
             {
                 //pushItems();
-                effector.enabled = !effector.enabled;
-
-                canPush = false;
+                effector.enabled = true;
+                
                 FindObjectOfType<AudioManager>().Play("push");
                 gameObject.GetComponent<Player>().pushing = true;
-                pushingAnimTimer = pushingAnimCd;
+                pushingAnimTimer = pushingAnimTime;
                 Instantiate(pushAnimation, transform.position, Quaternion.identity);
                 pushCooldownTimer = pushCooldownTime;
+                effectorTimer = effectorTime;
             }
         }
     }
@@ -69,6 +66,15 @@ public class ForcePushEffector2D : MonoBehaviour
             else
             {
                 pushCooldownTimer = 0;
+            }
+
+            if (effectorTimer > 0)
+            {
+                effectorTimer -= Time.deltaTime;
+            } else
+            {
+                effector.enabled = false;
+                effectorTimer = 0;
             }
         }
     }
